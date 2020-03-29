@@ -57,6 +57,7 @@ Short package description
   - [PyOxidiser](#pyoxidiser)
   - [Python Date Utils](#python-date-utils)
   - [Pycel](#pycel)
+  - [Dacite](#dacite)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -251,6 +252,12 @@ The `dateutil` module provides powerful extensions to the standard datetime modu
 *[https://pythonbytes.fm/episodes/show/171/chilled-out-python-decorators-with-pep-614](https://pythonbytes.fm/episodes/show/171/chilled-out-python-decorators-with-pep-614)*
 
 A library for compiling excel spreadsheets to `Python` code & visualizing them as a graph
+
+## [Dacite](https://github.com/konradhalas/dacite)
+
+*[https://pythonbytes.fm/episodes/show/174/happy-developers-use-python-3](https://pythonbytes.fm/episodes/show/174/happy-developers-use-python-3)*
+
+Simplifies creation of data classes from dictionaries. Converting from dict to dataclass is trivial for trivial cases: `x = MyClass(**data_as_dict)`.
 
 # Game Development
 
