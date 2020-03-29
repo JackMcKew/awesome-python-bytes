@@ -1,13 +1,12 @@
 # awesome-python-bytes
-😎 🐍 Awesome lists about Python Bytes https://pythonbytes.fm/
 
-[Python Bytes](https://pythonbytes.fm/) is a weekly, short & sweet podcast by [Michael Kennedy](https://twitter.com/mkennedy) & [Brian Okken](https://twitter.com/brianokken). After having the podcast recommended numerous times by friends & colleagues, I decided to download every episode thus far on the 14th of September 2019. Over the next 174 days, whenever I was commuting, I'd listen to 171 episodes of Python bytes, learnt a stack of new things and found new amazing python packages.
+😎 🐍 Awesome lists about Python Bytes <https://pythonbytes.fm/>
+
+[Python Bytes](https://pythonbytes.fm/) is a weekly, short & sweet podcast by [Michael Kennedy](https://twitter.com/mkennedy) & [Brian Okken](https://twitter.com/brianokken).
 
 ![Python Bytes Image](https://pythonbytes.fm/static/img/banner_750.png)
 
-This post is intended to list out the packages I'd noted down & their application. Total disclaimer, I haven't tried out all of these packages personally and I'm certain there is a plethora of other packages mentioned that I have not captured here, please reach out if theres anything to add!
-
-I've attempted to sort these into a directory of sorts pending on what you're interested in looking at, and whether I found out about them through [Python Bytes](https://pythonbytes.fm/) or elsewhere (they will have a link to the episode if directly from [Python Bytes](https://pythonbytes.fm/)).
+This repository is intended to list the awesome packages mentioned on the podcast. Pull requests are open to anyone to add packages mentioned on the podcast that are awesome!
 
 <!-- omit in toc -->
 # Table Of Contents
@@ -18,11 +17,6 @@ I've attempted to sort these into a directory of sorts pending on what you're in
   - [Wooey](#wooey)
   - [Anvil](#anvil)
   - [Vue.py](#vuepy)
-  - [GeoDjango](#geodjango)
-  - [Django Bootcamp](#django-bootcamp)
-- [Security](#security)
-  - [Osmedeus](#osmedeus)
-  - [Mongo Audit](#mongo-audit)
 - [Data Science](#data-science)
   - [Great Expectations](#great-expectations)
   - [PDF Plumber](#pdf-plumber)
@@ -32,20 +26,13 @@ I've attempted to sort these into a directory of sorts pending on what you're in
 - [Data Visualisation](#data-visualisation)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
-  - [Panel Holoviz](#panel-holoviz)
-  - [Cartoframes](#cartoframes)
-  - [Sand Dance](#sand-dance)
 - [Machine Learning](#machine-learning)
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
   - [Thinc](#thinc)
   - [Keras Gym](#keras-gym)
-  - [Spinning up](#spinning-up)
-  - [Jax](#jax)
-  - [Gensim](#gensim)
 - [Databases](#databases)
   - [GeoAlchemy](#geoalchemy)
-  - [Sandman 2](#sandman-2)
 - [Command Line Interfaces (CLIs)](#command-line-interfaces-clis)
   - [Python Fire](#python-fire)
   - [Clize](#clize)
@@ -59,10 +46,8 @@ I've attempted to sort these into a directory of sorts pending on what you're in
   - [PyOxidiser](#pyoxidiser)
   - [Python Date Utils](#python-date-utils)
   - [Pycel](#pycel)
-  - [Doc Assemble](#doc-assemble)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
-  - [PursuedPyBear](#pursuedpybear)
 - [Interesting Tidbits](#interesting-tidbits)
 
 # Web Development
@@ -99,29 +84,6 @@ use `Vue.js` with pure `Python`
 Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/)
 
 ![Vue.py Example](https://raw.githubusercontent.com/stefanhoelzl/vue.py/gh-pages/examples/todo_mvc/screenshot.png)
-
-## [GeoDjango](https://docs.djangoproject.com/en/3.0/ref/contrib/gis/)
-
-*[https://docs.djangoproject.com/en/3.0/ref/contrib/gis/](https://docs.djangoproject.com/en/3.0/ref/contrib/gis/)*
-GeoDjango intends to be a world-class geographic Web framework. Its goal is to make it as easy as possible to build GIS Web applications and harness the power of spatially enabled data.
-
-## [Django Bootcamp](https://github.com/vitorfs/bootcamp)
-
-*[https://github.com/vitorfs/bootcamp](https://github.com/vitorfs/bootcamp)*
-Bootcamp is an open source enterprise social network of open purpose, on which you can build for your own ends.
-> Example at: [https://trybootcamp.vitorfs.com/](https://trybootcamp.vitorfs.com/)
-
-# Security
-
-## [Osmedeus](https://github.com/j3ssie/Osmedeus)
-
-Fully automated offensive security framework for reconnaissance and vulnerability scanning
-![Osmedeus](https://raw.githubusercontent.com/j3ssie/Osmedeus/master/imgs/osmedeus-architecture.png)
-
-## [Mongo Audit](https://mongoaud.it/)
-
-*[https://mongoaud.it/](https://mongoaud.it/)*
-`mongoaudit` is an automated pentesting tool that lets you know if your `MongoDB` instances are properly secured
 
 # Data Science
 
@@ -174,28 +136,6 @@ Convert `Jupyter` notebooks to Excel Spreadsheets (xlsx), through a new 'Downloa
 
 ![Chartify Example](https://raw.githubusercontent.com/spotify/chartify/master/docs/_static/chartify1.png)
 
-## [Panel Holoviz](https://github.com/holoviz/panel)
-
-`Panel` provides tools for easily composing widgets, plots, tables, and other viewable objects and controls into control panels, apps, and dashboards. Panel works with visualizations from `Bokeh`, `Matplotlib`, `HoloViews`, and other `Python` plotting libraries, making them instantly viewable either individually or when combined with interactive widgets that control them. Panel works equally well in `Jupyter` Notebooks, for creating quick data-exploration tools, or as standalone deployed apps and dashboards, and allows you to easily switch between those contexts as needed.
-
-Examples at: [https://panel.holoviz.org/](https://panel.holoviz.org/)
-
-![Panel Example]({static img/panel-example.png})
-
-## [Cartoframes](https://github.com/CartoDB/cartoframes)
-
-A `Python` package for integrating CARTO maps, analysis, and data services into data science workflows.
-
-`Python` data analysis workflows often rely on the de facto standards `pandas` and `Jupyter` notebooks. Integrating CARTO into this workflow saves data scientists time and energy by not having to export datasets as files or retain multiple copies of the data. Instead, CARTOframes give the ability to communicate reproducible analysis while providing the ability to gain from CARTO's services like hosted, dynamic or static maps and Data Observatory augmentation.
-
-![Carto Example](https://carto.com/img/layout/homepage/use-cases/image1.621dbf2e.png)
-
-## [Sand Dance](https://github.com/microsoft/SandDance)
-
-*[https://github.com/microsoft/SandDance](https://github.com/microsoft/SandDance)*
-Visually explore, understand, and present your data.
-![Sand Dance Preview](https://user-images.githubusercontent.com/11507384/54236654-52d42800-44d1-11e9-859e-6c5d297a46d2.gif)
-
 # Machine Learning
 
 ## [PyTorch](https://github.com/pytorch/pytorch)
@@ -221,22 +161,6 @@ From the makers of `spaCy`, `Prodigy` & `FastAPI`
 Plug-n-play reinforcement learning with OpenAI Gym and `Keras`
 ![Keras Gym GIF](https://raw.githubusercontent.com/KristianHolsheimer/keras-gym/master/doc/_static/img/cartpole.gif)
 
-## [Spinning up](https://spinningup.openai.com/en/latest/)
-
-*[https://spinningup.openai.com/en/latest/](https://spinningup.openai.com/en/latest/)*
-Deep reinforcement learning educational resource
-
-## [Jax](https://github.com/google/jax)
-
-*[https://github.com/google/jax](https://github.com/google/jax)*
-`JAX` is Autograd and XLA, brought together for high-performance machine learning research.
-> Autograd & XLA are both optimisers, this package makes the applications run quicker
-
-## [Gensim](https://radimrehurek.com/gensim/)
-
-*[https://radimrehurek.com/gensim/](https://radimrehurek.com/gensim/)*
-`Gensim` is an open-source library for unsupervised topic modeling and natural language processing, using modern statistical machine learning.
-
 # Databases
 
 ## [GeoAlchemy](https://geoalchemy-2.readthedocs.io/en/latest/)
@@ -247,11 +171,6 @@ Using `SQLAlchemy` with Spatial Databases.
 `GeoAlchemy 2` provides extensions to `SQLAlchemy` for working with spatial databases.
 
 `GeoAlchemy 2` focuses on `PostGIS`. `PostGIS 1.5` and `PostGIS 2` are supported.
-
-## [Sandman 2](https://github.com/jeffknupp/sandman2)
-
-*[https://github.com/jeffknupp/sandman2](https://github.com/jeffknupp/sandman2)*
-Automatically generate a RESTful API service for your legacy database. No code required!
 
 # Command Line Interfaces (CLIs)
 
@@ -322,10 +241,6 @@ The `dateutil` module provides powerful extensions to the standard datetime modu
 
 A library for compiling excel spreadsheets to `Python` code & visualizing them as a graph
 
-## [Doc Assemble](https://docassemble.org/)
-
-`docassemble` is a free, open-source expert system for guided interviews and document assembly. It provides a web site that conducts interviews with users. Based on the information gathered, the interviews can present users with documents in PDF, RTF, or DOCX format, which users can download or e-mail.
-
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
@@ -336,13 +251,8 @@ A library for compiling excel spreadsheets to `Python` code & visualizing them a
 
 [![Panda3D Example](https://img.youtube.com/vi/MYlBW0f4HhA/0.jpg)](https://www.youtube.com/watch?v=MYlBW0f4HhA "Panda3D Example")
 
-## [PursuedPyBear](https://ppb.readthedocs.io/)
-
-PursuedPyBear, also known as ppb, exists to be an educational resource. Most obviously used to teach computer science, it can be a useful tool for any topic that a simulation can be helpful.
-
 # Interesting Tidbits
 
-> There was one episode that referenced some amazing examples of GUIs built in Tkinter, unfortunately I have been unable to find it again. My note that I had down was `63 GUIs in Tkinter`.
 > Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
 > [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualisations.
 > [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
