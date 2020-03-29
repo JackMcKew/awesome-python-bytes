@@ -8,10 +8,21 @@
 
 This repository is intended to list the awesome packages mentioned on the podcast. Pull requests are open to anyone to add packages mentioned on the podcast that are awesome!
 
+# Format
+
+Each package is listed in the following format:
+
+``` markdown
+[Package Name](link/to/package)
+*Link to show notes where mentioned*
+Short package description
+![IMAGE IF APPLICABLE]
+```
 <!-- omit in toc -->
 # Table Of Contents
 
 - [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
