@@ -34,6 +34,7 @@ Short package description
   - [PyJanitor](#pyjanitor)
   - [Pandas Vet](#pandas-vet)
   - [NB2XLS](#nb2xls)
+  - [pylightxl](#pylightxl)
 - [Data Visualisation](#data-visualisation)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
@@ -130,6 +131,21 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 *[https://github.com/ideonate/nb2xls](https://github.com/ideonate/nb2xls)*
 Convert `Jupyter` notebooks to Excel Spreadsheets (xlsx), through a new 'Download As' option or via `nbconvert` on the command line.
 ![NB2XLS Preview](https://raw.githubusercontent.com/ideonate/nb2xls/master/screenshots/Jupyter2Excel.png)
+
+## [pylightxl](https://github.com/PydPiper/pylightxl)
+
+*[https://pythonbytes.fm/episodes/show/165/ranges-as-dictionary-keys-oh-my](https://pythonbytes.fm/episodes/show/165/ranges-as-dictionary-keys-oh-my)*
+
+A light weight, zero dependency (only standard libs used), to the point (no bells and whistles) Microsoft Excel reader/writer python 2.7-3+ library.
+![Example Code](https://github.com/PydPiper/pylightxl/blob/master/doc/source/_static/readme_demo.gif)
+
+Why pylightxl over pandas/openpyxl
+- (compatibility +1, small lib +1) pylightxl has no external dependencies (only uses python built-in standard libs).
+(compatibility +1) pylightxl was written to be compatible for python 2.7-3+ under one single pylightxl version. It does not impose rules on users to switch versions.
+- (small lib +1) pylightxl was written to simply read/write, thereby making the library small without any bells or whistles which makes it easy to compile with PyInstaller and other packagers
+- (user friendly +1) pylightxl was written to be as pythonic and easy to use as possible. Core developers actively survey Stack Overflow questions on working with excel files to tailor the API for most common problems.
+- (see xlrd before pylightxl) Note that the xlrd library is very similar in values to pylightxl, but with much more functionality! Please take a look at xlrd to see if it is a good fit for your project. So why pick pylightxl over xlrd that has much more to offer? Currently, xlrd does not have any active developers. Pylightxl is a new library aimed to help solve current excel data issues (as surveyed by Stack Overflow), please submit your suggestions to help improve this library together.
+
 
 # Data Visualisation
 
