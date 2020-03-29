@@ -57,6 +57,7 @@ Short package description
   - [PyOxidiser](#pyoxidiser)
   - [Python Date Utils](#python-date-utils)
   - [Pycel](#pycel)
+  - [PyDantic](#pydantic)
   - [Dacite](#dacite)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
@@ -252,6 +253,12 @@ The `dateutil` module provides powerful extensions to the standard datetime modu
 *[https://pythonbytes.fm/episodes/show/171/chilled-out-python-decorators-with-pep-614](https://pythonbytes.fm/episodes/show/171/chilled-out-python-decorators-with-pep-614)*
 
 A library for compiling excel spreadsheets to `Python` code & visualizing them as a graph
+
+## [PyDantic](https://pydantic-docs.helpmanual.io/)
+
+*[https://pythonbytes.fm/episodes/show/174/happy-developers-use-python-3](https://pythonbytes.fm/episodes/show/174/happy-developers-use-python-3)*
+
+Data validation and settings management using python type annotations.
 
 ## [Dacite](https://github.com/konradhalas/dacite)
 
