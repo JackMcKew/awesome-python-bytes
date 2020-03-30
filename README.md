@@ -29,6 +29,7 @@ Short package description
   - [Anvil](#anvil)
   - [Vue.py](#vuepy)
 - [Data Science](#data-science)
+  - [D-Tale](#d-tale)
   - [Great Expectations](#great-expectations)
   - [PDF Plumber](#pdf-plumber)
   - [PyJanitor](#pyjanitor)
@@ -100,6 +101,23 @@ Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](http
 ![Vue.py Example](https://raw.githubusercontent.com/stefanhoelzl/vue.py/gh-pages/examples/todo_mvc/screenshot.png)
 
 # Data Science
+
+## [D-Tale](https://github.com/man-group/dtale)
+
+*[https://pythonbytes.fm/episodes/show/169/jupyter-notebooks-natively-on-your-ipad](https://pythonbytes.fm/episodes/show/169/jupyter-notebooks-natively-on-your-ipad)*
+
+`D-Tale` is a Flask/React client for visualizing pandas data structures. [Live Demo](http://andrewschonfeld.pythonanywhere.com/)
+
+![](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)
+
+Why the Deets?
+* Integrates easily into any python console or jupyter notebook
+* Works with Google Colab & Kaggle
+* Quickly explore large dataframes with our grid using sorting, filtering & show/hide/move columns
+* Browse column information & statistics with "Describe"
+* View correlation matrices
+* Quick histograms, value counts & category breakdowns using "Column Analysis"
+* Easy chart builder built on top of plotly/dash (export your charts to take them on the go as well :smile:)
 
 ## [Great Expectations](https://great-expectations.readthedocs.io/en/latest/)
 
