@@ -238,7 +238,7 @@ Using `SQLAlchemy` with Spatial Databases.
 
 `Typer`, build great CLIs. Easy to code. Based on `Python` type hints.
 
-# Guided User Interfaces (GUIs)
+# Graphical User Interfaces (GUIs)
 
 ## [Gooey](https://github.com/chriskiehl/Gooey)
 
@@ -256,6 +256,29 @@ I have also done a tutorial blog post on Gooey as well at: [https://jackmckew.de
 `Eel` is a little `Python` library for making simple Electron-like offline HTML/JS GUI apps, with full access to `Python` capabilities and libraries.
 
 ![Eel Demo](https://raw.githubusercontent.com/samuelhwilliams/Eel/master/examples/04%20-%20file_access/Screenshot.png)
+
+## [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
+
+*[https://pythonbytes.fm/episodes/show/90/a-django-async-roadmap](https://pythonbytes.fm/episodes/show/90/a-django-async-roadmap)*
+
+*[https://pythonbytes.fm/episodes/show/104/api-evolution-the-right-way](https://pythonbytes.fm/episodes/show/104/api-evolution-the-right-way)*
+
+PySimpleGUI enables anyone with a week of PySimpleGUI education or more to develop an entirely custom desktop GUI application.  The underlying GUI frameworks supported include tkinter, Qt, WxPython and Remi.  PySimpleGUI code can be run on any of these underlying frameworks with little or often no modification to the source code. 
+
+Unlike other simplified GUI pacakges, PySimpleGUI has a rich palette of widgets that are not dumbed down and can be assembled into any configuration desired, resulting in applications that look and operate as if written directly in tkinter, Qt, etc.  Simple defines the ease of writing the programs, not the class of problems that are capable of being solved. 100's of demo programs are provided to give programmers a jump start on integrating with other packages such as OpenCV, Matplotlib.  There are over 500 GitHub projects currently using PySimpleGUI.
+
+A couple recent projects include:
+
+A series of Rainmeter-style "Desktop Widgets": https://github.com/PySimpleGUI/PySimpleGUI-Widgets
+
+![PSG CPU Cores Scrolling](https://user-images.githubusercontent.com/46163555/72114378-52830400-3311-11ea-8584-32bde5c265db.gif)
+
+
+A photo and video colorizer: https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer
+
+
+![SNAG-0628](https://user-images.githubusercontent.com/46163555/71523943-4327a380-2899-11ea-95b7-a2892f611109.jpg)
+
 
 ## [QUICK](https://github.com/szsdk/quick)
 
