@@ -294,7 +294,7 @@ Simplifies creation of data classes from dictionaries. Converting from dict to d
 
 # Interesting Tidbits
 
-> Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
-> [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualisations.
-> [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
-> [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
+* Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
+* [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualisations.
+* [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
+* [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
