@@ -108,7 +108,7 @@ Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](http
 
 `D-Tale` is a Flask/React client for visualizing pandas data structures. [Live Demo](http://andrewschonfeld.pythonanywhere.com/)
 
-![](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)
+[![](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)](https://github.com/man-group/dtale)
 
 Why the Deets?
 * Integrates easily into any python console or jupyter notebook
