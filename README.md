@@ -29,6 +29,7 @@ Short package description
   - [Anvil](#anvil)
   - [Vue.py](#vuepy)
 - [Data Science](#data-science)
+  - [D-Tale](#d-tale)
   - [Great Expectations](#great-expectations)
   - [PDF Plumber](#pdf-plumber)
   - [PyJanitor](#pyjanitor)
@@ -100,6 +101,23 @@ Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](http
 ![Vue.py Example](https://raw.githubusercontent.com/stefanhoelzl/vue.py/gh-pages/examples/todo_mvc/screenshot.png)
 
 # Data Science
+
+## [D-Tale](https://github.com/man-group/dtale)
+
+*[https://pythonbytes.fm/episodes/show/169/jupyter-notebooks-natively-on-your-ipad](https://pythonbytes.fm/episodes/show/169/jupyter-notebooks-natively-on-your-ipad)*
+
+`D-Tale` is a Flask/React client for visualizing pandas data structures. [Live Demo](http://andrewschonfeld.pythonanywhere.com/)
+
+![](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)
+
+Why the Deets?
+* Integrates easily into any python console or jupyter notebook
+* Works with Google Colab & Kaggle
+* Quickly explore large dataframes with our grid using sorting, filtering & show/hide/move columns
+* Browse column information & statistics with "Describe"
+* View correlation matrices
+* Quick histograms, value counts & category breakdowns using "Column Analysis"
+* Easy chart builder built on top of plotly/dash (export your charts to take them on the go as well :smile:)
 
 ## [Great Expectations](https://great-expectations.readthedocs.io/en/latest/)
 
@@ -220,7 +238,7 @@ Using `SQLAlchemy` with Spatial Databases.
 
 `Typer`, build great CLIs. Easy to code. Based on `Python` type hints.
 
-# Guided User Interfaces (GUIs)
+# Graphical User Interfaces (GUIs)
 
 ## [Gooey](https://github.com/chriskiehl/Gooey)
 
@@ -238,6 +256,29 @@ I have also done a tutorial blog post on Gooey as well at: [https://jackmckew.de
 `Eel` is a little `Python` library for making simple Electron-like offline HTML/JS GUI apps, with full access to `Python` capabilities and libraries.
 
 ![Eel Demo](https://raw.githubusercontent.com/samuelhwilliams/Eel/master/examples/04%20-%20file_access/Screenshot.png)
+
+## [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
+
+*[https://pythonbytes.fm/episodes/show/90/a-django-async-roadmap](https://pythonbytes.fm/episodes/show/90/a-django-async-roadmap)*
+
+*[https://pythonbytes.fm/episodes/show/104/api-evolution-the-right-way](https://pythonbytes.fm/episodes/show/104/api-evolution-the-right-way)*
+
+PySimpleGUI enables anyone with a week of PySimpleGUI education or more to develop an entirely custom desktop GUI application.  The underlying GUI frameworks supported include tkinter, Qt, WxPython and Remi.  PySimpleGUI code can be run on any of these underlying frameworks with little or often no modification to the source code. 
+
+Unlike other simplified GUI pacakges, PySimpleGUI has a rich palette of widgets that are not dumbed down and can be assembled into any configuration desired, resulting in applications that look and operate as if written directly in tkinter, Qt, etc.  Simple defines the ease of writing the programs, not the class of problems that are capable of being solved. 100's of demo programs are provided to give programmers a jump start on integrating with other packages such as OpenCV, Matplotlib.  There are over 500 GitHub projects currently using PySimpleGUI.
+
+A couple recent projects include:
+
+A series of Rainmeter-style "Desktop Widgets": https://github.com/PySimpleGUI/PySimpleGUI-Widgets
+
+![PSG CPU Cores Scrolling](https://user-images.githubusercontent.com/46163555/72114378-52830400-3311-11ea-8584-32bde5c265db.gif)
+
+
+A photo and video colorizer: https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer
+
+
+![SNAG-0628](https://user-images.githubusercontent.com/46163555/71523943-4327a380-2899-11ea-95b7-a2892f611109.jpg)
+
 
 ## [QUICK](https://github.com/szsdk/quick)
 
@@ -294,7 +335,7 @@ Simplifies creation of data classes from dictionaries. Converting from dict to d
 
 # Interesting Tidbits
 
-> Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
-> [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualisations.
-> [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
-> [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
+* Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
+* [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualisations.
+* [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
+* [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
