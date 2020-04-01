@@ -1,3 +1,4 @@
+api
 apis
 argparse
 async
@@ -5,12 +6,14 @@ Attrs
 bader
 cetera
 chartify
+cli
 clis
 CLIs
 clize
 CMS
 colab
 Colorizer
+colorizer
 cpu
 cpython
 csv
@@ -55,6 +58,7 @@ nbconvert
 nina
 Okken
 OpenAI
+OpenCV
 openpyxl
 pipenv
 plotly
@@ -63,6 +67,8 @@ py
 pycel
 pydantic
 PyDantic
+PyInstaller
+pyinstaller
 pyjanitor
 PyJanitor
 pylightxl
