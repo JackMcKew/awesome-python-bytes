@@ -36,7 +36,7 @@ Short package description
   - [Pandas Vet](#pandas-vet)
   - [NB2XLS](#nb2xls)
   - [pylightxl](#pylightxl)
-- [Data Visualisation](#data-visualisation)
+- [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
 - [Machine Learning](#machine-learning)
@@ -50,13 +50,14 @@ Short package description
   - [Python Fire](#python-fire)
   - [Clize](#clize)
   - [Typer](#typer)
-- [Guided User Interfaces (GUIs)](#guided-user-interfaces-guis)
+- [Graphical User Interfaces (GUIs)](#graphical-user-interfaces-guis)
   - [Gooey](#gooey)
   - [Eel GUI](#eel-gui)
+  - [PySimpleGUI](#pysimplegui)
   - [QUICK](#quick)
 - [Python Development](#python-development)
   - [Attrs](#attrs)
-  - [PyOxidiser](#pyoxidiser)
+  - [PyOxidizer](#pyoxidizer)
   - [Python Date Utils](#python-date-utils)
   - [Pycel](#pycel)
   - [PyDantic](#pydantic)
@@ -108,16 +109,17 @@ Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](http
 
 `D-Tale` is a Flask/React client for visualizing pandas data structures. [Live Demo](http://andrewschonfeld.pythonanywhere.com/)
 
-[![](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)](https://github.com/man-group/dtale)
+[![D-Tale Screenshots](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)](https://github.com/man-group/dtale)
 
 Why the Deets?
-* Integrates easily into any python console or jupyter notebook
-* Works with Google Colab & Kaggle
-* Quickly explore large dataframes with our grid using sorting, filtering & show/hide/move columns
-* Browse column information & statistics with "Describe"
-* View correlation matrices
-* Quick histograms, value counts & category breakdowns using "Column Analysis"
-* Easy chart builder built on top of plotly/dash (export your charts to take them on the go as well :smile:)
+
+- Integrates easily into any python console or jupyter notebook
+- Works with Google Colab & Kaggle
+- Quickly explore large dataframes with our grid using sorting, filtering & show/hide/move columns
+- Browse column information & statistics with "Describe"
+- View correlation matrices
+- Quick histograms, value counts & category breakdowns using "Column Analysis"
+- Easy chart builder built on top of plotly/dash (export your charts to take them on the go as well :smile:)
 
 ## [Great Expectations](https://great-expectations.readthedocs.io/en/latest/)
 
@@ -158,14 +160,14 @@ A light weight, zero dependency (only standard libs used), to the point (no bell
 ![Example Code](https://github.com/PydPiper/pylightxl/blob/master/doc/source/_static/readme_demo.gif)
 
 Why pylightxl over pandas/openpyxl
+
 - (compatibility +1, small lib +1) pylightxl has no external dependencies (only uses python built-in standard libs).
 (compatibility +1) pylightxl was written to be compatible for python 2.7-3+ under one single pylightxl version. It does not impose rules on users to switch versions.
 - (small lib +1) pylightxl was written to simply read/write, thereby making the library small without any bells or whistles which makes it easy to compile with PyInstaller and other packagers
 - (user friendly +1) pylightxl was written to be as pythonic and easy to use as possible. Core developers actively survey Stack Overflow questions on working with excel files to tailor the API for most common problems.
 - (see xlrd before pylightxl) Note that the xlrd library is very similar in values to pylightxl, but with much more functionality! Please take a look at xlrd to see if it is a good fit for your project. So why pick pylightxl over xlrd that has much more to offer? Currently, xlrd does not have any active developers. Pylightxl is a new library aimed to help solve current excel data issues (as surveyed by Stack Overflow), please submit your suggestions to help improve this library together.
 
-
-# Data Visualisation
+# Data Visualization
 
 ## [Pylustrator](https://pylustrator.readthedocs.io/en/latest/)
 
@@ -263,22 +265,19 @@ I have also done a tutorial blog post on Gooey as well at: [https://jackmckew.de
 
 *[https://pythonbytes.fm/episodes/show/104/api-evolution-the-right-way](https://pythonbytes.fm/episodes/show/104/api-evolution-the-right-way)*
 
-PySimpleGUI enables anyone with a week of PySimpleGUI education or more to develop an entirely custom desktop GUI application.  The underlying GUI frameworks supported include tkinter, Qt, WxPython and Remi.  PySimpleGUI code can be run on any of these underlying frameworks with little or often no modification to the source code. 
+PySimpleGUI enables anyone with a week of PySimpleGUI education or more to develop an entirely custom desktop GUI application.  The underlying GUI frameworks supported include tkinter, Qt, WxPython and Remi.  PySimpleGUI code can be run on any of these underlying frameworks with little or often no modification to the source code.
 
-Unlike other simplified GUI pacakges, PySimpleGUI has a rich palette of widgets that are not dumbed down and can be assembled into any configuration desired, resulting in applications that look and operate as if written directly in tkinter, Qt, etc.  Simple defines the ease of writing the programs, not the class of problems that are capable of being solved. 100's of demo programs are provided to give programmers a jump start on integrating with other packages such as OpenCV, Matplotlib.  There are over 500 GitHub projects currently using PySimpleGUI.
+Unlike other simplified GUI packages, PySimpleGUI has a rich palette of widgets that are not dumbed down and can be assembled into any configuration desired, resulting in applications that look and operate as if written directly in tkinter, Qt, etc.  Simple defines the ease of writing the programs, not the class of problems that are capable of being solved. 100's of demo programs are provided to give programmers a jump start on integrating with other packages such as OpenCV, Matplotlib.  There are over 500 GitHub projects currently using PySimpleGUI.
 
 A couple recent projects include:
 
-A series of Rainmeter-style "Desktop Widgets": https://github.com/PySimpleGUI/PySimpleGUI-Widgets
+A series of Rainmeter-style "Desktop Widgets": <https://github.com/PySimpleGUI/PySimpleGUI-Widgets>
 
 ![PSG CPU Cores Scrolling](https://user-images.githubusercontent.com/46163555/72114378-52830400-3311-11ea-8584-32bde5c265db.gif)
 
-
-A photo and video colorizer: https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer
-
+A photo and video colorizer: <https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer>
 
 ![SNAG-0628](https://user-images.githubusercontent.com/46163555/71523943-4327a380-2899-11ea-95b7-a2892f611109.jpg)
-
 
 ## [QUICK](https://github.com/szsdk/quick)
 
@@ -294,7 +293,7 @@ A real quick GUI generator for `click`. Inspired by `Gooey`, the GUI generator f
 *[https://pythonbytes.fm/episodes/show/11/django-2.0-is-dropping-python-2-entirely-pipenv-for-profile-functionality-and-pythonic-home-automation](https://pythonbytes.fm/episodes/show/11/django-2.0-is-dropping-python-2-entirely-pipenv-for-profile-functionality-and-pythonic-home-automation)*
 `Python` Classes Without Boilerplate
 
-## [PyOxidiser](https://github.com/indygreg/PyOxidizer)
+## [PyOxidizer](https://github.com/indygreg/PyOxidizer)
 
 *[https://pythonbytes.fm/episodes/show/114/what-should-be-in-the-python-standard-library](https://pythonbytes.fm/episodes/show/114/what-should-be-in-the-python-standard-library)*
 `PyOxidizer` is a utility for producing binaries that embed `Python`. The over-arching goal of `PyOxidizer` is to make complex packaging and distribution problems simple so application maintainers can focus on building applications instead of toiling with build systems and packaging tools.
@@ -335,7 +334,7 @@ Simplifies creation of data classes from dictionaries. Converting from dict to d
 
 # Interesting Tidbits
 
-* Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
-* [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualisations.
-* [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
-* [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
+- Using --prompt to name your virtualenv for easy identification later on is something I use widely now. [https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python](https://pythonbytes.fm/episodes/show/168/race-your-donkey-car-with-python)
+- [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualizations.
+- [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
+- [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
