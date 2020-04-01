@@ -328,7 +328,7 @@ Simplifies creation of data classes from dictionaries. Converting from dict to d
 
 *[https://pythonbytes.fm/episodes/show/116/so-you-want-python-in-a-3d-graphics-engine](https://pythonbytes.fm/episodes/show/116/so-you-want-python-in-a-3d-graphics-engine)*
 
-`Panda3D` is an open-source, completely free-to-use engine for realtime 3D games, visualizations, simulations, experiments
+`Panda3D` is an open-source, completely free-to-use engine for real time 3D games, visualizations, simulations, experiments
 
 [![Panda3D Example](https://img.youtube.com/vi/MYlBW0f4HhA/0.jpg)](https://www.youtube.com/watch?v=MYlBW0f4HhA "Panda3D Example")
 
