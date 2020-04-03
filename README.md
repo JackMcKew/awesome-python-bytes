@@ -107,7 +107,7 @@ Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](http
 
 *[https://pythonbytes.fm/episodes/show/169/jupyter-notebooks-natively-on-your-ipad](https://pythonbytes.fm/episodes/show/169/jupyter-notebooks-natively-on-your-ipad)*
 
-`D-Tale` is a Flask/React client for visualizing pandas data structures. [Live Demo](http://andrewschonfeld.pythonanywhere.com/)
+`D-Tale` is a Flask/React client for visualizing pandas data structures. [Live Demo](http://alphatechadmin.pythonanywhere.com/)
 
 [![D-Tale Screenshots](https://raw.githubusercontent.com/aschonfeld/dtale-media/master/images/tiled/Tiled_screenshots.png)](https://github.com/man-group/dtale)
 
