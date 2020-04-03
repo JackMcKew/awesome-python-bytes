@@ -1,6 +1,6 @@
 # .github/workflows/check_spelling.yml
 name: Check Spelling
-on: [push, pull_request]
+on: push
 jobs:
   spelling:
     runs-on: ubuntu-latest
