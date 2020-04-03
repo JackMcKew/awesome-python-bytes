@@ -82,7 +82,7 @@ A `Django` app that creates automatic web UIs for `Python` scripts.
 
 Live example at: [https://wooey.herokuapp.com/](https://wooey.herokuapp.com/)
 
-![Wooey Example]({static img/wooey-example.png})
+![Wooey Example](https://jackmckew.dev/img/wooey-example.png)
 
 ## [Anvil](https://anvil.works/)
 
