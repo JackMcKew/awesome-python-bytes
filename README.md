@@ -18,8 +18,54 @@ Each package is listed in the following format:
 Short package description
 ![IMAGE IF APPLICABLE]
 ```
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Web Development](#web-development)
+  - [Wagtail](#wagtail)
+  - [Wooey](#wooey)
+  - [Anvil](#anvil)
+  - [Vue.py](#vuepy)
+- [Data Science](#data-science)
+  - [D-Tale](#d-tale)
+  - [Great Expectations](#great-expectations)
+  - [PDF Plumber](#pdf-plumber)
+  - [PyJanitor](#pyjanitor)
+  - [Pandas Vet](#pandas-vet)
+  - [NB2XLS](#nb2xls)
+  - [pylightxl](#pylightxl)
+- [Data Visualization](#data-visualization)
+  - [Pylustrator](#pylustrator)
+  - [Chartify](#chartify)
+- [Machine Learning](#machine-learning)
+  - [PyTorch](#pytorch)
+  - [Yellow Brick](#yellow-brick)
+  - [Thinc](#thinc)
+  - [Keras Gym](#keras-gym)
+- [Databases](#databases)
+  - [GeoAlchemy](#geoalchemy)
+- [Command Line Interfaces (CLIs)](#command-line-interfaces-clis)
+  - [Python Fire](#python-fire)
+  - [Clize](#clize)
+  - [Typer](#typer)
+- [Graphical User Interfaces (GUIs)](#graphical-user-interfaces-guis)
+  - [Gooey](#gooey)
+  - [Eel GUI](#eel-gui)
+  - [PySimpleGUI](#pysimplegui)
+  - [QUICK](#quick)
+- [Python Development](#python-development)
+  - [Attrs](#attrs)
+  - [PyOxidizer](#pyoxidizer)
+  - [Python Date Utils](#python-date-utils)
+  - [Pycel](#pycel)
+  - [PyDantic](#pydantic)
+  - [Dacite](#dacite)
+- [Game Development](#game-development)
+  - [Panda3D](#panda3d)
+- [Interesting Tidbits](#interesting-tidbits)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Web Development
 
