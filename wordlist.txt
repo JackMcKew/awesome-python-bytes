@@ -27,6 +27,7 @@ dateutil
 deets
 dev
 django
+doctoc
 dumbed
 et
 fm
