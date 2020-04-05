@@ -18,11 +18,10 @@ Each package is listed in the following format:
 Short package description
 ![IMAGE IF APPLICABLE]
 ```
-<!-- omit in toc -->
-# Table Of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-- [awesome-python-bytes](#awesome-python-bytes)
-- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -65,6 +64,8 @@ Short package description
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Web Development
 
