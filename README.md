@@ -323,6 +323,12 @@ Data validation and settings management using python type annotations.
 
 Simplifies creation of data classes from dictionaries. Converting from dict to dataclass is trivial for trivial cases: `x = MyClass(**data_as_dict)`.
 
+## [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide)
+
+*[https://pythonbytes.fm/episodes/show/155/guido-van-rossum-retires](https://pythonbytes.fm/episodes/show/155/guido-van-rossum-retires)*
+
+The strictest and most opinionated python linter ever. wemake-python-styleguide is actually a flake8 plugin with some other plugins as dependencies.
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
