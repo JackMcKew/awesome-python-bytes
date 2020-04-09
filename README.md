@@ -263,6 +263,7 @@ I have also done a tutorial blog post on Gooey as well at: [https://jackmckew.de
 ## [Eel GUI](https://github.com/samuelhwilliams/Eel)
 
 *[https://pythonbytes.fm/episodes/show/61/on-being-a-senior-engineer](https://pythonbytes.fm/episodes/show/61/on-being-a-senior-engineer)*
+
 `Eel` is a little `Python` library for making simple Electron-like offline HTML/JS GUI apps, with full access to `Python` capabilities and libraries.
 
 ![Eel Demo](https://raw.githubusercontent.com/samuelhwilliams/Eel/master/examples/04%20-%20file_access/Screenshot.png)
@@ -290,6 +291,7 @@ A photo and video colorizer: <https://github.com/PySimpleGUI/PySimpleGUI-Photo-C
 ## [QUICK](https://github.com/szsdk/quick)
 
 *[https://pythonbytes.fm/episodes/show/166/misunderstanding-software-clocks-and-time](https://pythonbytes.fm/episodes/show/166/misunderstanding-software-clocks-and-time)*
+
 A real quick GUI generator for `click`. Inspired by `Gooey`, the GUI generator for classical `Python` `argparse`-based command line programs.
 
 ![QUICK Example](https://user-images.githubusercontent.com/6657200/38025934-bf93013c-32bc-11e8-8d12-91411b28946e.png)
