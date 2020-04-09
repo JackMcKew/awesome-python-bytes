@@ -61,6 +61,7 @@ Short package description
   - [Pycel](#pycel)
   - [PyDantic](#pydantic)
   - [Dacite](#dacite)
+  - [wemake-python-styleguide](#wemake-python-styleguide)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
