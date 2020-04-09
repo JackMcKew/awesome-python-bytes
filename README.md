@@ -14,9 +14,12 @@ Each package is listed in the following format:
 
 ``` markdown
 [Package Name](link/to/package)
+
 *Link to show notes where mentioned*
+
 Short package description
-![IMAGE IF APPLICABLE]
+
+[![IMAGE IF APPLICABLE]](link/to/package)
 ```
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -85,7 +88,7 @@ A `Django` app that creates automatic web UIs for `Python` scripts.
 
 Live example at: [https://wooey.herokuapp.com/](https://wooey.herokuapp.com/)
 
-![Wooey Example](https://jackmckew.dev/img/wooey-example.png)
+[![Wooey Example](https://jackmckew.dev/img/wooey-example.png)](https://github.com/wooey/Wooey)
 
 ## [Anvil](https://anvil.works/)
 
@@ -93,7 +96,7 @@ Live example at: [https://wooey.herokuapp.com/](https://wooey.herokuapp.com/)
 
 Full stack web apps with nothing but `Python`.
 
-## Vue.py
+## [Vue.py](https://github.com/stefanhoelzl/vue.py)
 
 *[https://pythonbytes.fm/episodes/show/140/becoming-a-10x-developer-sorta](https://pythonbytes.fm/episodes/show/140/becoming-a-10x-developer-sorta)*
 
@@ -103,7 +106,7 @@ use `Vue.js` with pure `Python`
 
 Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/)
 
-![Vue.py Example](https://raw.githubusercontent.com/stefanhoelzl/vue.py/gh-pages/examples/todo_mvc/screenshot.png)
+[![Vue.py Example](https://raw.githubusercontent.com/stefanhoelzl/vue.py/gh-pages/examples/todo_mvc/screenshot.png)](https://github.com/stefanhoelzl/vue.py)
 
 # Data Science
 
@@ -137,7 +140,7 @@ Why the Deets?
 
 Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
 
-![PDF Plumb Example](https://raw.githubusercontent.com/jsvine/pdfplumber/master/examples/screenshots/visual-debugging-in-jupyter.png)
+[![PDF Plumb Example](https://raw.githubusercontent.com/jsvine/pdfplumber/master/examples/screenshots/visual-debugging-in-jupyter.png)](https://github.com/jsvine/pdfplumber)
 
 ## [PyJanitor](https://pyjanitor.readthedocs.io/)
 
@@ -157,7 +160,7 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 
 Convert `Jupyter` notebooks to Excel Spreadsheets (xlsx), through a new 'Download As' option or via `nbconvert` on the command line.
 
-![NB2XLS Preview](https://raw.githubusercontent.com/ideonate/nb2xls/master/screenshots/Jupyter2Excel.png)
+[![NB2XLS Preview](https://raw.githubusercontent.com/ideonate/nb2xls/master/screenshots/Jupyter2Excel.png)](https://github.com/ideonate/nb2xls)
 
 ## [pylightxl](https://github.com/PydPiper/pylightxl)
 
@@ -165,7 +168,7 @@ Convert `Jupyter` notebooks to Excel Spreadsheets (xlsx), through a new 'Downloa
 
 A light weight, zero dependency (only standard libs used), to the point (no bells and whistles) Microsoft Excel reader/writer python 2.7-3+ library.
 
-![Example Code](https://github.com/PydPiper/pylightxl/blob/master/doc/source/_static/readme_demo.gif)
+[![Example Code](https://github.com/PydPiper/pylightxl/blob/master/doc/source/_static/readme_demo.gif)](https://github.com/PydPiper/pylightxl)
 
 Why pylightxl over pandas/openpyxl
 
@@ -191,7 +194,7 @@ Why pylightxl over pandas/openpyxl
 
 `Chartify` is a `Python` library that makes it easy for data scientists to create charts.
 
-![Chartify Example](https://raw.githubusercontent.com/spotify/chartify/master/docs/_static/chartify1.png)
+[![Chartify Example](https://raw.githubusercontent.com/spotify/chartify/master/docs/_static/chartify1.png)](https://github.com/spotify/chartify)
 
 # Machine Learning
 
@@ -207,7 +210,7 @@ Tensors and Dynamic neural networks in `Python` with strong GPU acceleration
 
 `Yellowbrick` extends the `Scikit-Learn` API to make model selection and hyperparameter tuning easier. Under the hood, it’s using `Matplotlib`.
 
-![Yellow Brick Preview](https://www.scikit-yb.org/en/latest/_images/banner.png)
+[![Yellow Brick Preview](https://www.scikit-yb.org/en/latest/_images/banner.png)](https://www.scikit-yb.org/en/latest/)
 
 ## [Thinc](https://thinc.ai/)
 
@@ -258,7 +261,7 @@ I personally love `Gooey` and have it installed in almost every project lately. 
 
 I have also done a tutorial blog post on Gooey as well at: [https://jackmckew.dev/making-executable-guis-with-python-gooey-pyinstaller.html](https://jackmckew.dev/making-executable-guis-with-python-gooey-pyinstaller.html#making-executable-guis-with-python-gooey-pyinstaller)
 
-![Gooey Example](https://raw.githubusercontent.com/chriskiehl/GooeyImages/images/readme-images/1-0-3-title-card.png)
+[![Gooey Example](https://raw.githubusercontent.com/chriskiehl/GooeyImages/images/readme-images/1-0-3-title-card.png)](https://github.com/chriskiehl/Gooey)
 
 ## [Eel GUI](https://github.com/samuelhwilliams/Eel)
 
@@ -266,7 +269,7 @@ I have also done a tutorial blog post on Gooey as well at: [https://jackmckew.de
 
 `Eel` is a little `Python` library for making simple Electron-like offline HTML/JS GUI apps, with full access to `Python` capabilities and libraries.
 
-![Eel Demo](https://raw.githubusercontent.com/samuelhwilliams/Eel/master/examples/04%20-%20file_access/Screenshot.png)
+[![Eel Demo](https://raw.githubusercontent.com/samuelhwilliams/Eel/master/examples/04%20-%20file_access/Screenshot.png)](https://github.com/samuelhwilliams/Eel)
 
 ## [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
 
@@ -282,11 +285,11 @@ A couple recent projects include:
 
 A series of Rainmeter-style "Desktop Widgets": <https://github.com/PySimpleGUI/PySimpleGUI-Widgets>
 
-![PSG CPU Cores Scrolling](https://user-images.githubusercontent.com/46163555/72114378-52830400-3311-11ea-8584-32bde5c265db.gif)
+[![PSG CPU Cores Scrolling](https://user-images.githubusercontent.com/46163555/72114378-52830400-3311-11ea-8584-32bde5c265db.gif)](https://github.com/PySimpleGUI/PySimpleGUI-Widgets)
 
 A photo and video colorizer: <https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer>
 
-![SNAG-0628](https://user-images.githubusercontent.com/46163555/71523943-4327a380-2899-11ea-95b7-a2892f611109.jpg)
+[![SNAG-0628](https://user-images.githubusercontent.com/46163555/71523943-4327a380-2899-11ea-95b7-a2892f611109.jpg)](https://github.com/PySimpleGUI/PySimpleGUI-Photo-Colorizer)
 
 ## [QUICK](https://github.com/szsdk/quick)
 
@@ -294,7 +297,7 @@ A photo and video colorizer: <https://github.com/PySimpleGUI/PySimpleGUI-Photo-C
 
 A real quick GUI generator for `click`. Inspired by `Gooey`, the GUI generator for classical `Python` `argparse`-based command line programs.
 
-![QUICK Example](https://user-images.githubusercontent.com/6657200/38025934-bf93013c-32bc-11e8-8d12-91411b28946e.png)
+[![QUICK Example](https://user-images.githubusercontent.com/6657200/38025934-bf93013c-32bc-11e8-8d12-91411b28946e.png)](https://github.com/szsdk/quick)
 
 # Python Development
 
