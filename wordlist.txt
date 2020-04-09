@@ -34,6 +34,7 @@ fm
 geoalchemy
 GeoAlchemy
 github
+guido
 guis
 GUIs
 herokuapp
@@ -51,6 +52,7 @@ kaggle
 keras
 KristianHolsheimer
 libs
+linter
 matplotlib
 mvc
 natively
@@ -85,9 +87,11 @@ pytorch
 rainmeter
 remi
 roadmap
+rossum
 scikit
 simon
 stefanhoelzl
+styleguide
 subfigures
 thinc
 tkinter
@@ -101,6 +105,7 @@ virtualenv
 vue
 Vue
 vuepy
+wemake
 Wooey
 wooey
 wordpress
