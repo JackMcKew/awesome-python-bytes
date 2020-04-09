@@ -42,7 +42,6 @@ Short package description
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
   - [Thinc](#thinc)
-  - [Keras Gym](#keras-gym)
 - [Databases](#databases)
   - [GeoAlchemy](#geoalchemy)
 - [Command Line Interfaces (CLIs)](#command-line-interfaces-clis)
