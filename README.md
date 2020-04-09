@@ -73,6 +73,7 @@ Short package description
 ## [Wagtail](https://wagtail.io/)
 
 *[https://pythonbytes.fm/episodes/show/70/have-you-seen-my-log-it-s-cute](https://pythonbytes.fm/episodes/show/70/have-you-seen-my-log-it-s-cute)*
+
 `Wagtail` is a content management system (CMS) (like Wordpress), written in `Python`, based off `Django`.
 
 [Gallery of sites made with `wagtail`](https://madewithwagtail.org/)
@@ -80,6 +81,7 @@ Short package description
 ## [Wooey](https://github.com/wooey/Wooey)
 
 *[https://pythonbytes.fm/episodes/show/62/wooey-and-gooey-are-simple-python-guis](https://pythonbytes.fm/episodes/show/62/wooey-and-gooey-are-simple-python-guis)*
+
 A `Django` app that creates automatic web UIs for `Python` scripts.
 
 Live example at: [https://wooey.herokuapp.com/](https://wooey.herokuapp.com/)
@@ -95,6 +97,7 @@ Full stack web apps with nothing but `Python`.
 ## Vue.py
 
 *[https://pythonbytes.fm/episodes/show/140/becoming-a-10x-developer-sorta](https://pythonbytes.fm/episodes/show/140/becoming-a-10x-developer-sorta)*
+
 use `Vue.js` with pure `Python`
 
 `vue.py` provides `Python` bindings for `Vue.js`. It uses `brython` to run `Python` in the browser.
@@ -126,6 +129,7 @@ Why the Deets?
 ## [Great Expectations](https://great-expectations.readthedocs.io/en/latest/)
 
 *[https://pythonbytes.fm/episodes/show/115/dataclass-csv-reader-and-nina-drops-by](https://pythonbytes.fm/episodes/show/115/dataclass-csv-reader-and-nina-drops-by)*
+
 `Great Expectations` is a leading tool for validating, documenting, and profiling, your data to maintain quality and improve communication between teams.
 
 ## [PDF Plumber](https://github.com/jsvine/pdfplumber)
@@ -151,7 +155,9 @@ Plumb a PDF for detailed information about each char, rectangle, line, et cetera
 ## [NB2XLS](https://github.com/ideonate/nb2xls)
 
 *[https://github.com/ideonate/nb2xls](https://github.com/ideonate/nb2xls)*
+
 Convert `Jupyter` notebooks to Excel Spreadsheets (xlsx), through a new 'Download As' option or via `nbconvert` on the command line.
+
 ![NB2XLS Preview](https://raw.githubusercontent.com/ideonate/nb2xls/master/screenshots/Jupyter2Excel.png)
 
 ## [pylightxl](https://github.com/PydPiper/pylightxl)
@@ -159,6 +165,7 @@ Convert `Jupyter` notebooks to Excel Spreadsheets (xlsx), through a new 'Downloa
 *[https://pythonbytes.fm/episodes/show/165/ranges-as-dictionary-keys-oh-my](https://pythonbytes.fm/episodes/show/165/ranges-as-dictionary-keys-oh-my)*
 
 A light weight, zero dependency (only standard libs used), to the point (no bells and whistles) Microsoft Excel reader/writer python 2.7-3+ library.
+
 ![Example Code](https://github.com/PydPiper/pylightxl/blob/master/doc/source/_static/readme_demo.gif)
 
 Why pylightxl over pandas/openpyxl
@@ -192,31 +199,30 @@ Why pylightxl over pandas/openpyxl
 ## [PyTorch](https://github.com/pytorch/pytorch)
 
 *[https://pythonbytes.fm/episodes/show/80/dan-bader-drops-by-and-we-found-30-new-python-projects](https://pythonbytes.fm/episodes/show/80/dan-bader-drops-by-and-we-found-30-new-python-projects)*
+
 Tensors and Dynamic neural networks in `Python` with strong GPU acceleration
 
 ## [Yellow Brick](https://www.scikit-yb.org/en/latest/)
 
 *[https://pythonbytes.fm/episodes/show/74/contributing-to-open-source-effectively](https://pythonbytes.fm/episodes/show/74/contributing-to-open-source-effectively)*
+
 `Yellowbrick` extends the `Scikit-Learn` API to make model selection and hyperparameter tuning easier. Under the hood, it’s using `Matplotlib`.
+
 ![Yellow Brick Preview](https://www.scikit-yb.org/en/latest/_images/banner.png)
 
 ## [Thinc](https://thinc.ai/)
 
 *[https://pythonbytes.fm/episodes/show/167/cheating-at-kaggle-and-uwsgi-in-prod](https://pythonbytes.fm/episodes/show/167/cheating-at-kaggle-and-uwsgi-in-prod)*
+
 A refreshing functional take on deep learning, compatible with your favorite libraries.
 From the makers of `spaCy`, `Prodigy` & `FastAPI`
-
-## [Keras Gym](https://github.com/KristianHolsheimer/keras-gym)
-
-*[https://github.com/KristianHolsheimer/keras-gym](https://github.com/KristianHolsheimer/keras-gym)*
-Plug-n-play reinforcement learning with OpenAI Gym and `Keras`
-![Keras Gym GIF](https://raw.githubusercontent.com/KristianHolsheimer/keras-gym/master/doc/_static/img/cartpole.gif)
 
 # Databases
 
 ## [GeoAlchemy](https://geoalchemy-2.readthedocs.io/en/latest/)
 
 *[https://pythonbytes.fm/episodes/show/77/you-don-t-have-to-be-a-workaholic-to-win](https://pythonbytes.fm/episodes/show/77/you-don-t-have-to-be-a-workaholic-to-win)*
+
 Using `SQLAlchemy` with Spatial Databases.
 
 `GeoAlchemy 2` provides extensions to `SQLAlchemy` for working with spatial databases.
@@ -228,7 +234,8 @@ Using `SQLAlchemy` with Spatial Databases.
 ## [Python Fire](https://github.com/google/python-fire)
 
 *[https://pythonbytes.fm/episodes/show/17/google-s-python-is-on-fire-and-simon-says-you-have-cpu-load-pythonically](https://pythonbytes.fm/episodes/show/17/google-s-python-is-on-fire-and-simon-says-you-have-cpu-load-pythonically)*
-``Python`Fire` is a library for automatically generating command line interfaces (CLIs) from absolutely any `Python` object.
+
+`Python Fire` is a library for automatically generating command line interfaces (CLIs) from absolutely any `Python` object.
 
 ## [Clize](https://clize.readthedocs.io/en/stable/)
 
@@ -293,11 +300,13 @@ A real quick GUI generator for `click`. Inspired by `Gooey`, the GUI generator f
 ## [Attrs](https://github.com/python-attrs/attrs)
 
 *[https://pythonbytes.fm/episodes/show/11/django-2.0-is-dropping-python-2-entirely-pipenv-for-profile-functionality-and-pythonic-home-automation](https://pythonbytes.fm/episodes/show/11/django-2.0-is-dropping-python-2-entirely-pipenv-for-profile-functionality-and-pythonic-home-automation)*
+
 `Python` Classes Without Boilerplate
 
 ## [PyOxidizer](https://github.com/indygreg/PyOxidizer)
 
 *[https://pythonbytes.fm/episodes/show/114/what-should-be-in-the-python-standard-library](https://pythonbytes.fm/episodes/show/114/what-should-be-in-the-python-standard-library)*
+
 `PyOxidizer` is a utility for producing binaries that embed `Python`. The over-arching goal of `PyOxidizer` is to make complex packaging and distribution problems simple so application maintainers can focus on building applications instead of toiling with build systems and packaging tools.
 
 ## [Python Date Utils](https://dateutil.readthedocs.io/en/stable/)
