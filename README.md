@@ -51,6 +51,7 @@ Short package description
   - [Python Fire](#python-fire)
   - [Clize](#clize)
   - [Typer](#typer)
+  - [Rich](#rich)
 - [Graphical User Interfaces (GUIs)](#graphical-user-interfaces-guis)
   - [Gooey](#gooey)
   - [Eel GUI](#eel-gui)
@@ -250,6 +251,14 @@ Using `SQLAlchemy` with Spatial Databases.
 *[https://pythonbytes.fm/episodes/show/164/use-type-hints-to-build-your-next-cli-app](https://pythonbytes.fm/episodes/show/164/use-type-hints-to-build-your-next-cli-app)*
 
 `Typer`, build great CLIs. Easy to code. Based on `Python` type hints.
+
+## [Rich](https://github.com/willmcgugan/rich)
+
+*[https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers](https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers)*
+
+Rich is a Python library for rich text and beautiful formatting in the terminal.
+
+[![Rich Example](https://github.com/willmcgugan/rich/raw/master/imgs/features.png)](https://github.com/willmcgugan/rich)
 
 # Graphical User Interfaces (GUIs)
 
