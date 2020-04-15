@@ -40,3 +40,21 @@ jobs:
           args: -v -r *
       - name: Fail if there were link errors
         run: exit ${{ steps.lc.outputs.exit_code }}
+        
+      - name: Comment PR passed
+        if: success()
+        uses: unsplash/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          msg: "All checks passed!"
+          check_for_duplicate_msg: false  # OPTIONAL 
+
+      - name: Comment PR failed
+        if: failure()
+        uses: unsplash/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          msg: "Some checks failed, check GitHub Actions"
+          check_for_duplicate_msg: false  # OPTIONAL 
