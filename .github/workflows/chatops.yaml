@@ -41,18 +41,28 @@ jobs:
       - name: Fail if there were link errors
         run: exit ${{ steps.lc.outputs.exit_code }}
         
-      - name: make comment on PR if checks pass
+      - name: Comment on PR if checks pass
         if: success()
-        run: |
-           ./action_files/pr_comment.sh "All checks passed!"
-        env:
-          GITHUB_TOKEN: ${{ secrets.manual_github_token }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
-      
-      - name: make comment on PR if checks fail
+        uses: actions/github-script@0.9.0
+        with:
+          github-token: ${{secrets.manual_github_token}}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 All checks passed!'
+            })
+        
+      - name: Comment on PR if checks fail
         if: failure()
-        run: |
-           ./action_files/pr_comment.sh "Some checks failed, check Github Actions"
-        env:
-          GITHUB_TOKEN: ${{ secrets.manual_github_token }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        uses: actions/github-script@0.9.0
+        with:
+          github-token: ${{secrets.manual_github_token}}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Some checks failled :(, check Github Actions for more details.'
+            })
