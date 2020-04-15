@@ -41,20 +41,18 @@ jobs:
       - name: Fail if there were link errors
         run: exit ${{ steps.lc.outputs.exit_code }}
         
-      - name: Comment PR passed
+      - name: make comment on PR if checks pass
         if: success()
-        uses: unsplash/comment-on-pr@master
+        run: |
+           ./_action_files/pr_comment.sh "All checks passed!"
         env:
           GITHUB_TOKEN: ${{ secrets.manual_github_token }}
-        with:
-          msg: "All checks passed!"
-          check_for_duplicate_msg: false  # OPTIONAL 
-
-      - name: Comment PR failed
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+      
+      - name: make comment on PR if checks fail
         if: failure()
-        uses: unsplash/comment-on-pr@master
+        run: |
+           ./_action_files/pr_comment.sh "Some checks failed, check Github Actions"
         env:
           GITHUB_TOKEN: ${{ secrets.manual_github_token }}
-        with:
-          msg: "Some checks failed, check GitHub Actions"
-          check_for_duplicate_msg: false  # OPTIONAL 
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
