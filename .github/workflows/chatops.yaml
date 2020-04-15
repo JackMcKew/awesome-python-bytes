@@ -1,4 +1,4 @@
-name: Demo
+name: Trigger Checks on Fork
 on: [issue_comment]
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
         with:
           APP_PEM: ${{ secrets.APP_PEM }}
           APP_ID: ${{ secrets.APP_ID }}
-          TRIGGER_PHRASE: "/test-trigger-comment"
+          TRIGGER_PHRASE: "/check-pr"
         env: # you must supply GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.manual_github_token }}
         id: prcomm
@@ -29,3 +29,14 @@ jobs:
           BRANCH_NAME: ${{ steps.prcomm.outputs.BRANCH_NAME }}
           PR_NUMBER: ${{ steps.prcomm.outputs.PULL_REQUEST_NUMBER }}
           USERNAME: ${{ steps.prcomm.outputs.COMMENTER_USERNAME }}
+      
+      - name: Check Spelling
+        uses: UnicornGlobal/spellcheck-github-actions@master
+        
+      - name: Link Checker
+        id: lc
+        uses: peter-evans/link-checker@v1
+        with:
+          args: -v -r *
+      - name: Fail if there were link errors
+        run: exit ${{ steps.lc.outputs.exit_code }}
