@@ -44,7 +44,7 @@ jobs:
       - name: make comment on PR if checks pass
         if: success()
         run: |
-           ./_action_files/pr_comment.sh "All checks passed!"
+           ./action_files/pr_comment.sh "All checks passed!"
         env:
           GITHUB_TOKEN: ${{ secrets.manual_github_token }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
@@ -52,7 +52,7 @@ jobs:
       - name: make comment on PR if checks fail
         if: failure()
         run: |
-           ./_action_files/pr_comment.sh "Some checks failed, check Github Actions"
+           ./action_files/pr_comment.sh "Some checks failed, check Github Actions"
         env:
           GITHUB_TOKEN: ${{ secrets.manual_github_token }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
