@@ -368,3 +368,4 @@ The strictest and most opinionated python linter ever. wemake-python-styleguide 
 - [Python Graph Gallery](https://python-graph-gallery.com/) is an amazing resource for examples of already made data visualizations.
 - [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
 - [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
+- This list was mentioned in Episode #176 <https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers>
