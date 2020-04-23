@@ -24,7 +24,7 @@ dan
 dantic
 dataclass
 dataframes
-Dataframes
+DataFrames
 datetime
 dateutil
 deets
