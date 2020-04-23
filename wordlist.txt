@@ -3,6 +3,7 @@ apis
 argparse
 async
 Attrs
+backend
 bader
 Bokeh
 cetera
@@ -23,6 +24,7 @@ dan
 dantic
 dataclass
 dataframes
+Dataframes
 datetime
 dateutil
 deets
@@ -34,6 +36,7 @@ et
 fm
 geoalchemy
 GeoAlchemy
+GeoPandas
 github
 guido
 guis
@@ -60,14 +63,18 @@ natively
 nb
 nbconvert
 nbdev
+NBDev
 nina
 Okken
 OpenAI
 OpenCV
 openpyxl
+PandasBokeh
+perma
 pipenv
 plotly
 PSG
+pre
 py
 pycel
 pydantic
@@ -80,6 +87,7 @@ pylightxl
 pylustrator
 pyoxidizer
 PyOxidizer
+pypi
 pysimplegui
 PySimpleGUI
 Pyspark
