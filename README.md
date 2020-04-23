@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -41,6 +43,7 @@ Short package description
 - [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
+  - [PandasBokeh](#pandasbokeh)
 - [Machine Learning](#machine-learning)
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
@@ -196,6 +199,20 @@ Why pylightxl over pandas/openpyxl
 `Chartify` is a `Python` library that makes it easy for data scientists to create charts.
 
 [![Chartify Example](https://raw.githubusercontent.com/spotify/chartify/master/docs/_static/chartify1.png)](https://github.com/spotify/chartify)
+
+## [PandasBokeh](https://github.com/PatrikHlobil/Pandas-Bokeh)
+
+*<https://pythonbytes.fm/episodes/show/178/build-a-pypi-package-from-a-jupyter-notebook>*
+
+Pandas-Bokeh provides a Bokeh plotting backend for Pandas, GeoPandas and Pyspark DataFrames, similar to the already existing Visualization feature of Pandas. Importing the library adds a complementary plotting method `plot_bokeh()` on DataFrames and Series.
+
+With Pandas-Bokeh, creating stunning, interactive, HTML-based visualization is as easy as calling:
+
+``` python
+df.plot_bokeh()
+```
+
+[![PandasBokeh Example](https://raw.githubusercontent.com/PatrikHlobil/Pandas-Bokeh/master/docs/Images/Startimage.gif)](https://github.com/PatrikHlobil/Pandas-Bokeh)
 
 # Machine Learning
 

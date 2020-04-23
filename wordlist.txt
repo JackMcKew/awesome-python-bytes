@@ -4,6 +4,7 @@ argparse
 async
 Attrs
 bader
+Bokeh
 cetera
 chartify
 cli
@@ -80,6 +81,7 @@ pyoxidizer
 PyOxidizer
 pysimplegui
 PySimpleGUI
+Pyspark
 pythonbytes
 pythonic
 pythonically
