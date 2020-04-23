@@ -59,6 +59,7 @@ mvc
 natively
 nb
 nbconvert
+nbdev
 nina
 Okken
 OpenAI

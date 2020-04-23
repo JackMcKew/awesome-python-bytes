@@ -68,6 +68,7 @@ Short package description
   - [PyDantic](#pydantic)
   - [Dacite](#dacite)
   - [wemake-python-styleguide](#wemake-python-styleguide)
+  - [NBDev](#nbdev)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -368,6 +369,24 @@ Simplifies creation of data classes from dictionaries. Converting from dict to d
 *[https://pythonbytes.fm/episodes/show/155/guido-van-rossum-retires](https://pythonbytes.fm/episodes/show/155/guido-van-rossum-retires)*
 
 The strictest and most opinionated python linter ever. wemake-python-styleguide is actually a flake8 plugin with some other plugins as dependencies.
+
+## [NBDev](https://github.com/fastai/nbdev)
+
+*<https://pythonbytes.fm/episodes/show/178/build-a-pypi-package-from-a-jupyter-notebook>*
+
+`nbdev` is a library that allows you to fully develop a library in Jupyter Notebooks, putting all your code, tests and documentation in one place. That is: you now have a true literate programming environment, as envisioned by Donald Knuth back in 1983!
+
+Using the interactive environment, you can easily debug and refactor your code. Add #export flags to the cells that define the functions you want to include in your python modules. Here, for instance, is how combined_cos is defined and documented in the `fastai` library:
+
+[![NBDev Example](https://raw.githubusercontent.com/fastai/nbdev/master/nbs/images/export_example.png)](https://github.com/fastai/nbdev)
+
+- Creates Python packages out of a notebook
+- Creates documentation from the notebook
+- Solves the git perma-conflict issues with git pre-commit hooks
+- Use #export to declare a cell should become a function in the package
+- Manages the boilerplate issues for creating Python packages (setup.py, etc)
+- Makes testing possible inside notebooks
+- Navigate and edit your code in a standard text editor or IDE, and sync any changes automatically back into your notebooks (reverse basically)
 
 # Game Development
 
