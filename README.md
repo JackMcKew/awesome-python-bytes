@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -67,6 +69,7 @@ Short package description
   - [Dacite](#dacite)
   - [wemake-python-styleguide](#wemake-python-styleguide)
   - [NBDev](#nbdev)
+  - [Hypothesis](#hypothesis)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -385,6 +388,14 @@ Using the interactive environment, you can easily debug and refactor your code. 
 - Manages the boilerplate issues for creating Python packages (setup.py, etc)
 - Makes testing possible inside notebooks
 - Navigate and edit your code in a standard text editor or IDE, and sync any changes automatically back into your notebooks (reverse basically)
+
+## [Hypothesis](https://hypothesis.readthedocs.io/en/latest/)
+
+*<https://pythonbytes.fm/episodes/show/30/you-are-not-google-and-other-ruminations>*
+
+Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
+
+It works by letting you write tests that assert that something should be true for every case, not just the ones you happen to think of.
 
 # Game Development
 
