@@ -58,6 +58,7 @@ KristianHolsheimer
 libs
 linter
 matplotlib
+missingno
 mvc
 natively
 nb
