@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -69,6 +71,7 @@ Short package description
   - [wemake-python-styleguide](#wemake-python-styleguide)
   - [NBDev](#nbdev)
   - [Hypothesis](#hypothesis)
+  - [Safer](#safer)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -403,6 +406,26 @@ Using the interactive environment, you can easily debug and refactor your code. 
 Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
 
 It works by letting you write tests that assert that something should be true for every case, not just the ones you happen to think of.
+
+## [Safer](https://github.com/rec/safer)
+
+*<https://pythonbytes.fm/episodes/show/180/transactional-file-io-with-python-and-safer>*
+
+safer: a safer file opener
+
+No more partial writes or corruption! For file streams, sockets or any callable.
+
+``` python
+# dangerous
+with open(filename, 'w') as fp:
+    json.dump(data, fp)
+    # If an exception is raised, the file is empty or partly written
+
+# safer
+with safer.open(filename, 'w') as fp:
+    json.dump(data, fp)
+    # If an exception is raised, the file is unchanged.
+```
 
 # Game Development
 
