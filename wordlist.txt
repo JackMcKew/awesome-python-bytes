@@ -110,6 +110,7 @@ thinc
 tkinter
 toc
 todo
+transactional
 typer
 UIs
 Utils
