@@ -13,6 +13,7 @@ clis
 CLIs
 clize
 CMS
+codespell
 colab
 Colorizer
 colorizer
