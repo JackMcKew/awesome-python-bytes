@@ -72,6 +72,7 @@ Short package description
   - [NBDev](#nbdev)
   - [Hypothesis](#hypothesis)
   - [Safer](#safer)
+  - [Codespell](#codespell)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -426,6 +427,12 @@ with safer.open(filename, 'w') as fp:
     json.dump(data, fp)
     # If an exception is raised, the file is unchanged.
 ```
+
+## [Codespell](https://github.com/codespell-project/codespell)
+
+*<https://pythonbytes.fm/episodes/show/180/transactional-file-io-with-python-and-safer>*
+
+Fix common misspellings in text files. It's designed primarily for checking misspelled words in source code, but it can be used with other files as well.
 
 # Game Development
 
