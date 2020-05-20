@@ -46,6 +46,7 @@ Short package description
   - [Chartify](#chartify)
   - [PandasBokeh](#pandasbokeh)
   - [Missingno](#missingno)
+  - [HoloViz](#holoviz)
 - [Machine Learning](#machine-learning)
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
@@ -238,6 +239,14 @@ df.plot_bokeh()
 Messy data sets? Missing values? `missingno` provides a small tool set of flexible and easy-to-use missing data visualizations and utilities that allows you to get a quick visual summary of the completeness (or lack thereof) of your data set. Just pip install `missingno` to get started.
 
 [![Missingno Example](https://camo.githubusercontent.com/d59ba9e511fd42dd078b8c8829d3de3f6a7e1585/68747470733a2f2f692e696d6775722e636f6d2f675775584b45722e706e67)](https://github.com/ResidentMario/missingno)
+
+## [HoloViz](https://holoviz.org/)
+
+*<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
+
+HoloViz is a coordinated effort to make browser-based data visualization in Python easier to use, easier to learn, and more powerful.
+
+[![Holoviz Example](https://holoviz.org/assets/earthquakes.png)](https://holoviz.org/tutorial/index.html)
 
 # Machine Learning
 
