@@ -23,6 +23,7 @@ csv
 dacite
 dan
 dantic
+dashboarding
 dataclass
 dataframes
 DataFrames
@@ -31,7 +32,9 @@ dateutil
 deets
 dev
 django
+docstrings
 doctoc
+Docutils
 dumbed
 et
 fm
@@ -43,6 +46,7 @@ guido
 guis
 GUIs
 herokuapp
+HoloViz
 html
 https
 hyperparameter
@@ -56,6 +60,7 @@ jupyter
 kaggle
 keras
 KristianHolsheimer
+LaTeX
 libs
 linter
 matplotlib
@@ -73,6 +78,8 @@ OpenCV
 openpyxl
 PandasBokeh
 perma
+performant
+PDFs
 pipenv
 plotly
 PSG
@@ -81,6 +88,7 @@ py
 pycel
 pydantic
 PyDantic
+pydoc
 PyInstaller
 pyinstaller
 pyjanitor
@@ -104,6 +112,7 @@ rossum
 scikit
 simon
 stefanhoelzl
+Streamlit
 styleguide
 subfigures
 thinc
