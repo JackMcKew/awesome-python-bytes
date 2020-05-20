@@ -47,6 +47,7 @@ Short package description
   - [PandasBokeh](#pandasbokeh)
   - [Missingno](#missingno)
   - [HoloViz](#holoviz)
+  - [Awesome Panel](#awesome-panel)
 - [Machine Learning](#machine-learning)
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
@@ -248,6 +249,16 @@ Messy data sets? Missing values? `missingno` provides a small tool set of flexib
 HoloViz is a coordinated effort to make browser-based data visualization in Python easier to use, easier to learn, and more powerful.
 
 [![Holoviz Example](https://holoviz.org/assets/earthquakes.png)](https://holoviz.org/tutorial/index.html)
+
+## [Awesome Panel](https://awesome-panel.org/app)
+
+*<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
+
+Panel is announced as a high-level app and dashboarding solution for Python. I think the terms powerful and full of features should be added to that.
+
+The purpose of the Awesome Panel Project is to share knowledge on how Awesome Panel is and can become.
+
+[![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://awesome-panel.org/app)
 
 # Machine Learning
 
