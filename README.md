@@ -76,6 +76,7 @@ Short package description
   - [Safer](#safer)
   - [Codespell](#codespell)
   - [Interrogate](#interrogate)
+  - [Alive-Progress](#alive-progress)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -470,6 +471,23 @@ Enter: `interrogate`.
 - Get an understanding of how well your code is documented;
 - Add it to CI/CD checks to enforce documentation on newly-added code;
 - Assess a new code base for (one aspect of) code quality and maintainability.
+
+## [Alive-Progress](https://github.com/rsalmei/alive-progress)
+
+*<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
+
+A new kind of Progress Bar, with real-time throughput, eta and very cool animations!
+
+``` python
+from alive_progress import alive_bar
+items = range(1000)                  # retrieve your set of items
+with alive_bar(len(items)) as bar:   # declare your expected total
+    for item in items:               # iterate as usual
+        # process each item
+        bar()                        # call after consuming one item
+```
+
+[![Alive-Progress Example](https://raw.githubusercontent.com/rsalmei/alive-progress/master/img/alive-demo.gif)](https://github.com/rsalmei/alive-progress)
 
 # Game Development
 
