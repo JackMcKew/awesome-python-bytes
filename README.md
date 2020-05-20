@@ -40,6 +40,7 @@ Short package description
   - [Pandas Vet](#pandas-vet)
   - [NB2XLS](#nb2xls)
   - [pylightxl](#pylightxl)
+  - [Streamlit](#streamlit)
 - [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
@@ -187,6 +188,16 @@ Why pylightxl over pandas/openpyxl
 - (small lib +1) pylightxl was written to simply read/write, thereby making the library small without any bells or whistles which makes it easy to compile with PyInstaller and other packagers
 - (user friendly +1) pylightxl was written to be as pythonic and easy to use as possible. Core developers actively survey Stack Overflow questions on working with excel files to tailor the API for most common problems.
 - (see xlrd before pylightxl) Note that the xlrd library is very similar in values to pylightxl, but with much more functionality! Please take a look at xlrd to see if it is a good fit for your project. So why pick pylightxl over xlrd that has much more to offer? Currently, xlrd does not have any active developers. Pylightxl is a new library aimed to help solve current excel data issues (as surveyed by Stack Overflow), please submit your suggestions to help improve this library together.
+
+## [Streamlit](https://www.streamlit.io/)
+
+*<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
+
+The fastest way to build data apps.
+
+Streamlit’s open-source app framework is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.
+
+[![Streamlit Demo](https://camo.githubusercontent.com/5ae1dcfd188be26bbb0648fb62e9d6d593dbb6f5/68747470733a2f2f617773312e646973636f757273652d63646e2e636f6d2f7374616e6461726431302f75706c6f6164732f73747265616d6c69742f6f726967696e616c2f31582f323932653938356637663735656637626566386332376235383939663731663736636435373765302e676966)](https://www.streamlit.io/)
 
 # Data Visualization
 
