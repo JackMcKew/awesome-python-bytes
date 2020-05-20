@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -71,6 +73,7 @@ Short package description
   - [Hypothesis](#hypothesis)
   - [Safer](#safer)
   - [Codespell](#codespell)
+  - [Interrogate](#interrogate)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -431,6 +434,22 @@ with safer.open(filename, 'w') as fp:
 *<https://pythonbytes.fm/episodes/show/180/transactional-file-io-with-python-and-safer>*
 
 Fix common misspellings in text files. It's designed primarily for checking misspelled words in source code, but it can be used with other files as well.
+
+## [Interrogate](https://pypi.org/project/interrogate/)
+
+*<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
+
+`interrogate` checks your code base for missing docstrings.
+
+Documentation should be as important as code itself. And it should live within code. Python standardized docstrings, allowing for developers to navigate libraries as simply as calling `help()` on objects, and with powerful tools like Sphinx, pydoc, and Docutils to automatically generate HTML, LaTeX, PDFs, etc.
+
+Enter: `interrogate`.
+
+`interrogate` will tell you which methods, functions, classes, and modules have docstrings, and which do not. Use interrogate to:
+
+- Get an understanding of how well your code is documented;
+- Add it to CI/CD checks to enforce documentation on newly-added code;
+- Assess a new code base for (one aspect of) code quality and maintainability.
 
 # Game Development
 
