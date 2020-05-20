@@ -47,6 +47,7 @@ guis
 GUIs
 herokuapp
 HoloViz
+Holoviz
 html
 https
 hyperparameter
@@ -113,6 +114,7 @@ scikit
 simon
 stefanhoelzl
 Streamlit
+Streamlit's
 styleguide
 subfigures
 thinc
