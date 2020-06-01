@@ -131,7 +131,7 @@ Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](http
 
 An easy to use blogging platform, with enhanced support for Jupyter Notebooks.
 
-- Uses GH actions to Jekyll blog posts on GitHub Pages.
+- Uses GitHub actions to Jekyll blog posts on GitHub Pages.
 - Create posts with code, output of code, formatted text, directory from Jupyter Notebooks.
 - Altair interactive visualizations
 - Collapsible code cells that can be open or closed by default.
@@ -324,7 +324,7 @@ Use Beekeeper Studio to query and manage your relational databases, like MySQL, 
 
 Features:
 
-- Autocomplete SQL query editor with syntax highlighting
+- Auto complete SQL query editor with syntax highlighting
 - Tabbed interface, so you can multitask
 - Sort and filter table data to find just what you need
 - Sensible keyboard-shortcuts

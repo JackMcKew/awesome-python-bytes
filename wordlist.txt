@@ -1,3 +1,4 @@
+anonymize
 api
 apis
 argparse
@@ -5,6 +6,7 @@ async
 Attrs
 backend
 bader
+BeeKeeper
 Bokeh
 cetera
 chartify
@@ -37,11 +39,13 @@ doctoc
 Docutils
 dumbed
 et
+fastpages
 fm
 geoalchemy
 GeoAlchemy
 GeoPandas
 github
+GitHub
 guido
 guis
 GUIs
@@ -64,8 +68,10 @@ KristianHolsheimer
 LaTeX
 libs
 linter
+macOS
 matplotlib
 missingno
+Mimesis
 mvc
 natively
 nb
@@ -83,6 +89,7 @@ performant
 PDFs
 pipenv
 plotly
+Postgres
 PSG
 pre
 py
