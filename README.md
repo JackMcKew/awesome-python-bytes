@@ -280,7 +280,7 @@ Panel is announced as a high-level app and dashboarding solution for Python. I t
 
 The purpose of the Awesome Panel Project is to share knowledge on how Awesome Panel is and can become.
 
-[![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://awesome-panel.org/app)
+[![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://awesome-panel.org)
 
 # Machine Learning
 
