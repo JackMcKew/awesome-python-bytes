@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -248,7 +250,7 @@ HoloViz is a coordinated effort to make browser-based data visualization in Pyth
 
 [![Holoviz Example](https://holoviz.org/assets/earthquakes.png)](https://holoviz.org/tutorial/index.html)
 
-## [Awesome Panel](https://awesome-panel.org/app)
+## [Awesome Panel](https://awesome-panel.org)
 
 *<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
 
