@@ -55,6 +55,7 @@ Short package description
   - [Thinc](#thinc)
 - [Databases](#databases)
   - [GeoAlchemy](#geoalchemy)
+  - [BeeKeeper Studio Open Source SQL Editor and Database Manager](#beekeeper-studio-open-source-sql-editor-and-database-manager)
 - [Command Line Interfaces (CLIs)](#command-line-interfaces-clis)
   - [Python Fire](#python-fire)
   - [Clize](#clize)
@@ -308,6 +309,23 @@ Using `SQLAlchemy` with Spatial Databases.
 `GeoAlchemy 2` provides extensions to `SQLAlchemy` for working with spatial databases.
 
 `GeoAlchemy 2` focuses on `PostGIS`. `PostGIS 1.5` and `PostGIS 2` are supported.
+
+## [BeeKeeper Studio Open Source SQL Editor and Database Manager](https://www.beekeeperstudio.io/)
+
+
+Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server. Runs on all the things (Windows, Linux, macOS).
+
+Features:
+
+- Autocomplete SQL query editor with syntax highlighting
+- Tabbed interface, so you can multitask
+- Sort and filter table data to find just what you need
+- Sensible keyboard-shortcuts
+- Save queries for later
+- Query run-history, so you can find that one query you got working 3 days ago
+- Default dark theme
+
+![Beekeeper Studio](https://www.beekeeperstudio.io/assets/img/screenshots/view-7148ba26031849312697bf45ee9d81a1feb58c182080edf420c0b513495441b9.jpg)
 
 # Command Line Interfaces (CLIs)
 
