@@ -42,6 +42,7 @@ Short package description
   - [NB2XLS](#nb2xls)
   - [pylightxl](#pylightxl)
   - [Streamlit](#streamlit)
+  - [Mimesis](#mimesis)
 - [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
@@ -216,6 +217,12 @@ The fastest way to build data apps.
 Streamlit’s open-source app framework is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.
 
 [![Streamlit Demo](https://camo.githubusercontent.com/5ae1dcfd188be26bbb0648fb62e9d6d593dbb6f5/68747470733a2f2f617773312e646973636f757273652d63646e2e636f6d2f7374616e6461726431302f75706c6f6164732f73747265616d6c69742f6f726967696e616c2f31582f323932653938356637663735656637626566386332376235383939663731663736636435373765302e676966)](https://www.streamlit.io/)
+
+## [Mimesis](https://mimesis.name/)
+
+Mimesis is fast and extremely easy to use Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages.
+
+The fake data can be particularly useful during software development and testing. For example, it could be used to populate a testing database, create beautiful JSON and XML files, anonymize data taken from a production service and etc.
 
 # Data Visualization
 
