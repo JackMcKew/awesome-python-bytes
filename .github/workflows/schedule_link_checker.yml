@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Link Checker
-        uses: peter-evans/link-checker@v1
+        uses: peter-evans/link-checker@v1.2.2
         with:
           args: -v -r *
       - name: Create Issue From File
