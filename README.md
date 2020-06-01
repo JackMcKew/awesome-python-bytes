@@ -32,6 +32,7 @@ Short package description
   - [Wooey](#wooey)
   - [Anvil](#anvil)
   - [Vue.py](#vuepy)
+  - [fastpages](#fastpages)
 - [Data Science](#data-science)
   - [D-Tale](#d-tale)
   - [Great Expectations](#great-expectations)
@@ -121,6 +122,19 @@ use `Vue.js` with pure `Python`
 Live example at: [https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/](https://stefanhoelzl.github.io/vue.py/examples/todo_mvc/)
 
 [![Vue.py Example](https://raw.githubusercontent.com/stefanhoelzl/vue.py/gh-pages/examples/todo_mvc/screenshot.png)](https://github.com/stefanhoelzl/vue.py)
+
+## [fastpages](https://github.com/fastai/fastpages)
+
+*<https://pythonbytes.fm/episodes/show/183/need-a-beautiful-database-editor-look-to-the-bees>*
+
+An easy to use blogging platform, with enhanced support for Jupyter Notebooks.
+
+- Uses GH actions to Jekyll blog posts on GitHub Pages.
+- Create posts with code, output of code, formatted text, directory from Jupyter Notebooks.
+- Altair interactive visualizations
+- Collapsible code cells that can be open or closed by default.
+
+![fastpages](https://raw.githubusercontent.com/fastai/fastpages/master/images/diagram.png)
 
 # Data Science
 
