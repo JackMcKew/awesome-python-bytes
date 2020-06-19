@@ -1,3 +1,4 @@
+accessor
 anonymize
 api
 apis
@@ -28,6 +29,8 @@ dan
 dantic
 dashboarding
 dataclass
+dataframe
+DataFrame
 dataframes
 DataFrames
 datetime
@@ -120,6 +123,7 @@ roadmap
 rossum
 scikit
 sidetable
+SideTable
 simon
 stb
 stefanhoelzl
@@ -132,6 +136,7 @@ tkinter
 toc
 todo
 transactional
+treebeard
 typer
 UIs
 Utils
