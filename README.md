@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -41,6 +43,8 @@ Short package description
   - [pylightxl](#pylightxl)
   - [Streamlit](#streamlit)
   - [Mimesis](#mimesis)
+  - [SideTable](#sidetable)
+  - [Tabulate](#tabulate)
 - [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
@@ -222,6 +226,42 @@ Mimesis is fast and extremely easy to use Python package, which helps generate b
 
 The fake data can be particularly useful during software development and testing. For example, it could be used to populate a testing database, create beautiful JSON and XML files, anonymize data taken from a production service and etc.
 
+## [SideTable](https://pbpython.com/sidetable.html)
+
+*<https://pythonbytes.fm/episodes/show/186/the-treebeard-will-guard-your-notebook>*
+
+Makes it easy to build a frequency table and simple summary of missing values in a DataFrame. A useful tool when starting data exploration on a new data set
+At its core, `sidetable` is a super-charged version of pandas `value_counts` with a little bit of `crosstab` mixed in. With `sidetable` is imported, you have a new accessor on all your DataFrames - `stb` that you can use to build summary tables.
+
+[![SideTable Preview](https://pbpython.com/images/stb_table_header.png)](https://pbpython.com/sidetable.html)
+
+## [Tabulate](https://github.com/astanin/python-tabulate)
+
+*<https://pythonbytes.fm/episodes/show/186/the-treebeard-will-guard-your-notebook>*
+
+Pretty-print tabular data in Python, a library and a command-line utility.
+
+``` python
+from tabulate import tabulate
+
+table = [["Sun",696000,1989100000],
+          ["Earth",6371,5973.6],
+          ["Moon",1737,73.5],
+          ["Mars",3390,641.85]]
+headers=["Planet","R (km)", "mass (x 10^29 kg)"]
+table_str = tabulate(table, headers=headers)
+print(table_str)
+```
+
+``` bash
+    Planet      R (km)    mass (x 10^29 kg)
+    --------  --------  -------------------
+    Sun         696000           1.9891e+09
+    Earth         6371        5973.6
+    Moon          1737          73.5
+    Mars          3390         641.85
+```
+
 # Data Visualization
 
 ## [Pylustrator](https://pylustrator.readthedocs.io/en/latest/)
@@ -316,7 +356,6 @@ Using `SQLAlchemy` with Spatial Databases.
 `GeoAlchemy 2` focuses on `PostGIS`. `PostGIS 1.5` and `PostGIS 2` are supported.
 
 ## [BeeKeeper Studio Open Source SQL Editor and Database Manager](https://www.beekeeperstudio.io/)
-
 
 Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server. Runs on all the things (Windows, Linux, macOS).
 

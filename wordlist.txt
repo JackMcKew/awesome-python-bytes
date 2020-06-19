@@ -21,6 +21,7 @@ Colorizer
 colorizer
 cpu
 cpython
+crosstab
 csv
 dacite
 dan
@@ -118,7 +119,9 @@ remi
 roadmap
 rossum
 scikit
+sidetable
 simon
+stb
 stefanhoelzl
 Streamlit
 Streamlit's
@@ -133,6 +136,7 @@ typer
 UIs
 Utils
 uwsgi
+value_counts
 virtualenv
 vue
 Vue
