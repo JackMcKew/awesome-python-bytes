@@ -4,6 +4,7 @@ api
 apis
 argparse
 async
+asyncio
 Attrs
 backend
 bader
@@ -33,6 +34,7 @@ dataframe
 DataFrame
 dataframes
 DataFrames
+Datapane
 datetime
 dateutil
 deets
@@ -139,6 +141,8 @@ transactional
 treebeard
 typer
 UIs
+unsync
+Unsync
 Utils
 uwsgi
 value_counts

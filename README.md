@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -50,6 +52,7 @@ Short package description
   - [Missingno](#missingno)
   - [HoloViz](#holoviz)
   - [Awesome Panel](#awesome-panel)
+  - [Datapane](#datapane)
 - [Machine Learning](#machine-learning)
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
@@ -81,6 +84,7 @@ Short package description
   - [Codespell](#codespell)
   - [Interrogate](#interrogate)
   - [Alive-Progress](#alive-progress)
+  - [Unsync](#unsync)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -317,6 +321,14 @@ Panel is announced as a high-level app and dashboarding solution for Python. I t
 The purpose of the Awesome Panel Project is to share knowledge on how Awesome Panel is and can become.
 
 [![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://awesome-panel.org)
+
+## [Datapane](https://www.datapane.com/)
+
+*<https://pythonbytes.fm/episodes/show/189/what-does-str.strip-do-are-you-sure>*
+
+Datapane is an open source framework which makes it easy to turn scripts and notebooks into interactive reports.
+
+Examples gallery at: <https://www.datapane.com/gallery/>
 
 # Machine Learning
 
@@ -574,6 +586,36 @@ with alive_bar(len(items)) as bar:   # declare your expected total
 
 [![Alive-Progress Example](https://raw.githubusercontent.com/rsalmei/alive-progress/master/img/alive-demo.gif)](https://github.com/rsalmei/alive-progress)
 
+## [Unsync](https://github.com/alex-sherman/unsync)
+
+*<https://pythonbytes.fm/episodes/show/188/will-there-be-a-switch-in-python-the-language>*
+
+Unsync makes functions asynchronous and parallelized with a single decorator `@unsync`.
+
+A simple sleeping example with `asyncio`:
+
+``` python
+async def sync_async():
+    await asyncio.sleep(0.1)
+    return 'I hate event loops'
+
+result = asyncio.run(sync_async())
+print(result)
+```
+
+Same example with `unsync`:
+
+``` python
+@unsync
+async def unsync_async():
+    await asyncio.sleep(0.1)
+    return 'I like decorators'
+
+print(unsync_async().result())
+```
+
+> [Tutorial — making a trading bot asynchronous using Python’s “unsync” library](https://medium.com/@MattGosden/tutorial-using-pythons-unsync-library-to-make-an-asynchronous-trading-bot-9ee2ae881272)
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
@@ -591,3 +633,4 @@ with alive_bar(len(items)) as bar:   # declare your expected total
 - [Type hints for busy programmers](https://inventwithpython.com/blog/2019/11/24/type-hints-for-busy-python-programmers/) is a great resource for understanding what type hints are and why you should use them.
 - [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
 - This list was mentioned in Episode #176 <https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers>
+- Fruit Salad scrum estimation scale, use fruit analogies rather than estimating time for tasks <https://fberriman.com/2020/01/22/fruit-salad-a-scrum-estimation-scale/>
