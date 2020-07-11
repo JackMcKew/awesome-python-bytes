@@ -34,6 +34,7 @@ dataframe
 DataFrame
 dataframes
 DataFrames
+datapane
 Datapane
 datetime
 dateutil
@@ -46,6 +47,7 @@ Docutils
 dumbed
 et
 fastpages
+fberriman
 fm
 geoalchemy
 GeoAlchemy
@@ -90,6 +92,7 @@ OpenAI
 OpenCV
 openpyxl
 PandasBokeh
+parallelized
 perma
 performant
 PDFs
@@ -129,6 +132,7 @@ SideTable
 simon
 stb
 stefanhoelzl
+str
 Streamlit
 Streamlit's
 styleguide
@@ -161,3 +165,4 @@ XLS
 xls
 xlsx
 yellowbrick
+www
