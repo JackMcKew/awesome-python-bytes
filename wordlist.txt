@@ -81,6 +81,7 @@ matplotlib
 missingno
 Mimesis
 mvc
+MyPy
 natively
 nb
 nbconvert
@@ -110,6 +111,8 @@ PyInstaller
 pyinstaller
 pyjanitor
 PyJanitor
+pylance
+Pylance
 pylightxl
 pylustrator
 pyoxidizer
@@ -122,6 +125,9 @@ pythonbytes
 pythonic
 pythonically
 pytorch
+Pytype
+Pyre
+pyright
 rainmeter
 remi
 roadmap

@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -83,6 +85,7 @@ Short package description
   - [Interrogate](#interrogate)
   - [Alive-Progress](#alive-progress)
   - [Unsync](#unsync)
+  - [Pylance](#pylance)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -614,6 +617,20 @@ print(unsync_async().result())
 
 > [Tutorial — making a trading bot asynchronous using Python’s “unsync” library](https://medium.com/@MattGosden/tutorial-using-pythons-unsync-library-to-make-an-asynchronous-trading-bot-9ee2ae881272)
 
+## [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+
+*<https://pythonbytes.fm/episodes/show/190/you-will-now-be-notified-if-the-python-zipper-is-broken>*
+
+Pylance has the ability to supercharge your Python IntelliSense experience with rich type information, helping you write better code faster.
+
+- Features docstring automation, Signature help, parameter suggestions, code completion (better than existing)
+- Supports auto-imports, if you start typing from a namespace, like a standard library module, it will add the import for you.
+- Go to Reference, Go to Implementation shortcuts
+- Uses the pyright type checker (an alternative to MyPy (Dropbox), Pyre (Facebook) and Pytype (Google))
+- If you have pyright extension installed, remove it first!
+
+[![Pylance GIF](https://raw.githubusercontent.com/microsoft/pylance-release/master/screencap.gif)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
@@ -632,3 +649,8 @@ print(unsync_async().result())
 - [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
 - This list was mentioned in Episode #176 <https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers>
 - Fruit Salad scrum estimation scale, use fruit analogies rather than estimating time for tasks <https://fberriman.com/2020/01/22/fruit-salad-a-scrum-estimation-scale/>
+- How to find the difference between two times with timedeltas <https://pythonbytes.fm/episodes/show/190/you-will-now-be-notified-if-the-python-zipper-is-broken>.
+  - ``` python
+    weeks = dt / timedelta(days=7)
+    hours = dt / timedelta(hours=1)
+    ```
