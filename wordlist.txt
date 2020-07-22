@@ -41,6 +41,7 @@ dateutil
 deets
 dev
 django
+docstring
 docstrings
 doctoc
 Docutils
@@ -64,6 +65,7 @@ html
 https
 hyperparameter
 ideonate
+IntelliSense
 io
 ipad
 jackmckew
@@ -82,6 +84,7 @@ missingno
 Mimesis
 mvc
 MyPy
+namespace
 natively
 nb
 nbconvert
@@ -144,6 +147,7 @@ Streamlit's
 styleguide
 subfigures
 thinc
+timedeltas
 tkinter
 toc
 todo

@@ -380,7 +380,7 @@ Features:
 - Query run-history, so you can find that one query you got working 3 days ago
 - Default dark theme
 
-![Beekeeper Studio](https://www.beekeeperstudio.io/assets/img/screenshots/view-7148ba26031849312697bf45ee9d81a1feb58c182080edf420c0b513495441b9.jpg)
+![Beekeeper Studio](https://www.beekeeperstudio.io/assets/img/screenshots/main-dark-9e3099be326f5ba8f2389545e6811e9dda80ae842f210450385226f7cf3cc817.png)
 
 # Command Line Interfaces (CLIs)
 
