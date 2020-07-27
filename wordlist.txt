@@ -49,8 +49,10 @@ dumbed
 DVC
 dvc
 et
+everydaysuperpowers
 fastpages
 fberriman
+filesystem
 fm
 geoalchemy
 GeoAlchemy
@@ -150,6 +152,7 @@ Streamlit
 Streamlit's
 styleguide
 subfigures
+TextAttack
 thinc
 timedeltas
 tkinter
