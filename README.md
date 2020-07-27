@@ -326,7 +326,7 @@ HoloViz is a coordinated effort to make browser-based data visualization in Pyth
 
 [![Holoviz Example](https://holoviz.org/assets/earthquakes.png)](https://holoviz.org/tutorial/index.html)
 
-## [Awesome Panel](https://awesome-panel.org)
+## [Awesome Panel](https://github.com/MarcSkovMadsen/awesome-panel)
 
 *<https://pythonbytes.fm/episodes/show/181/it-s-time-to-interrogate-your-python-code>*
 
@@ -334,7 +334,7 @@ Panel is announced as a high-level app and dashboarding solution for Python. I t
 
 The purpose of the Awesome Panel Project is to share knowledge on how Awesome Panel is and can become.
 
-[![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://awesome-panel.org)
+[![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://github.com/MarcSkovMadsen/awesome-panel)
 
 ## [Datapane](https://www.datapane.com/)
 
