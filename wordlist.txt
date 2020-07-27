@@ -46,6 +46,8 @@ docstrings
 doctoc
 Docutils
 dumbed
+DVC
+dvc
 et
 fastpages
 fberriman
@@ -97,6 +99,8 @@ OpenCV
 openpyxl
 PandasBokeh
 parallelized
+Pathlib
+pathlib
 perma
 performant
 PDFs

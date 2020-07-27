@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -43,6 +45,7 @@ Short package description
   - [Mimesis](#mimesis)
   - [SideTable](#sidetable)
   - [Tabulate](#tabulate)
+  - [DVC](#dvc)
 - [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
@@ -55,6 +58,7 @@ Short package description
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
   - [Thinc](#thinc)
+  - [TextAttack](#textattack)
 - [Databases](#databases)
   - [GeoAlchemy](#geoalchemy)
   - [BeeKeeper Studio Open Source SQL Editor and Database Manager](#beekeeper-studio-open-source-sql-editor-and-database-manager)
@@ -84,6 +88,7 @@ Short package description
   - [Alive-Progress](#alive-progress)
   - [Unsync](#unsync)
   - [Pylance](#pylance)
+  - [Pathlib](#pathlib)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -263,6 +268,16 @@ print(table_str)
     Mars          3390         641.85
 ```
 
+## [DVC](https://dvc.org/)
+
+*<https://pythonbytes.fm/episodes/show/191/live-from-the-manning-python-conference>*
+
+Data Version Control (DVC) tracks machine learning models and data sets.
+
+DVC is built to make machine learning models shareable and reproducible. It is designed to handle large files, data sets, machine learning models, and metrics as well as code.
+
+[![DVC](https://dvc.org/img/graphic.png)](https://dvc.org/)
+
 # Data Visualization
 
 ## [Pylustrator](https://pylustrator.readthedocs.io/en/latest/)
@@ -351,6 +366,14 @@ Tensors and Dynamic neural networks in `Python` with strong GPU acceleration
 
 A refreshing functional take on deep learning, compatible with your favorite libraries.
 From the makers of `spaCy`, `Prodigy` & `FastAPI`
+
+## [TextAttack](https://github.com/QData/TextAttack)
+
+*<https://pythonbytes.fm/episodes/show/191/live-from-the-manning-python-conference>*
+
+Python framework for adversarial attacks and data augmentation for natural language processing
+
+[![TextAttack](https://camo.githubusercontent.com/7ad981f12e8f1498b1bc1f2655635c93cfe7cc3e/687474703a2f2f6a61636b786d6f727269732e636f6d2f66696c65732f7465787461747461636b2e676966)](https://github.com/QData/TextAttack)
 
 # Databases
 
@@ -628,6 +651,14 @@ Pylance has the ability to supercharge your Python IntelliSense experience with 
 - If you have pyright extension installed, remove it first!
 
 [![Pylance GIF](https://raw.githubusercontent.com/microsoft/pylance-release/master/screencap.gif)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+
+## [Pathlib](https://docs.python.org/3/library/pathlib.html)
+
+*<https://pythonbytes.fm/episodes/show/191/live-from-the-manning-python-conference>*
+
+Introduced in version 3.4, `pathlib` is a module in the standard library for dealing with paths for you! From the documentation itself *This module offers classes representing filesystem paths with semantics appropriate for different operating systems.*
+
+An intro to `pathlib` blog post mentioned in episode 191 can be found at: <https://everydaysuperpowers.dev/articles/stop-working-so-hard-paths-get-started-pathlib/>.
 
 # Game Development
 
