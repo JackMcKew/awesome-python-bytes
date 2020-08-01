@@ -178,7 +178,7 @@ Why the Deets?
 
 Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
 
-[![PDF Plumb Example](https://raw.githubusercontent.com/jsvine/pdfplumber/master/examples/screenshots/visual-debugging-in-jupyter.png)](https://github.com/jsvine/pdfplumber)
+[![PDF Plumb Example](https://raw.githubusercontent.com/jsvine/pdfplumber/stable/examples/screenshots/visual-debugging-in-jupyter.png)](https://github.com/jsvine/pdfplumber)
 
 ## [PyJanitor](https://pyjanitor.readthedocs.io/)
 
