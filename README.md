@@ -65,6 +65,7 @@ Short package description
   - [Clize](#clize)
   - [Typer](#typer)
   - [Rich](#rich)
+  - [invoke](#invoke)
 - [Graphical User Interfaces (GUIs)](#graphical-user-interfaces-guis)
   - [Gooey](#gooey)
   - [Eel GUI](#eel-gui)
@@ -428,6 +429,12 @@ Features:
 Rich is a Python library for rich text and beautiful formatting in the terminal.
 
 [![Rich Example](https://github.com/willmcgugan/rich/raw/master/imgs/features.png)](https://github.com/willmcgugan/rich)
+
+## [invoke](http://pyinvoke.org/)
+
+*[https://pythonbytes.fm/episodes/show/188/will-there-be-a-switch-in-python-the-language](https://pythonbytes.fm/episodes/show/188/will-there-be-a-switch-in-python-the-language)*
+
+`invoke` is a task execution tool & library. Replacement for Makefiles.
 
 # Graphical User Interfaces (GUIs)
 
