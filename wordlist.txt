@@ -83,6 +83,7 @@ LaTeX
 libs
 linter
 macOS
+Makefiles
 matplotlib
 missingno
 Mimesis
