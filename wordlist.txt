@@ -2,6 +2,7 @@ accessor
 anonymize
 api
 apis
+APIs
 argparse
 async
 asyncio
@@ -53,6 +54,8 @@ everydaysuperpowers
 fastpages
 fberriman
 filesystem
+Fil
+filprofiler
 fm
 geoalchemy
 GeoAlchemy
@@ -112,6 +115,7 @@ plotly
 Postgres
 PSG
 pre
+profiler
 py
 pycel
 pydantic
