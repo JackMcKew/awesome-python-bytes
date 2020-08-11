@@ -88,6 +88,7 @@ Short package description
   - [Unsync](#unsync)
   - [Pylance](#pylance)
   - [Pathlib](#pathlib)
+  - [filprofiler](#filprofiler)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -664,6 +665,18 @@ Pylance has the ability to supercharge your Python IntelliSense experience with 
 Introduced in version 3.4, `pathlib` is a module in the standard library for dealing with paths for you! From the documentation itself *This module offers classes representing filesystem paths with semantics appropriate for different operating systems.*
 
 An intro to `pathlib` blog post mentioned in episode 191 can be found at: <https://everydaysuperpowers.dev/articles/stop-working-so-hard-paths-get-started-pathlib/>.
+
+## [filprofiler](https://pythonspeed.com/products/filmemoryprofiler/)
+
+*<https://pythonbytes.fm/episodes/show/185/this-code-is-snooping-on-you-a-good-thing>*
+
+Fil is a new open source Python memory profiler ([currently hosted on GitHub](https://github.com/pythonspeed/filprofiler)), designed for code that processes large amounts of data: the kind of code written by data scientists, data engineers, and scientists.
+
+Some features highlighted in episode 185:
+
+- If your Python data pipeline is using too much memory, it can be very difficult to figure where exactly all that memory is going.
+-  What you need is some way to know exactly where peak memory usage is, and what code was responsible for memory at that point. And that’s exactly what the [Fil memory profiler](https://pythonspeed.com/products/filmemoryprofiler/) does.
+- Many tools track just Python memory. *Fil captures *all allocations going to the standard C memory allocation APIs.
 
 # Game Development
 
