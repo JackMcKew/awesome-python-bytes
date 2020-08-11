@@ -88,7 +88,7 @@ Short package description
   - [Unsync](#unsync)
   - [Pylance](#pylance)
   - [Pathlib](#pathlib)
-  - [Fil](#filprofiler)
+  - [filprofiler](#filprofiler)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
