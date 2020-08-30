@@ -25,9 +25,6 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [awesome-python-bytes](#awesome-python-bytes)
-- [Format](#format)
-- [- Events](#ullieventsliul)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -95,18 +92,6 @@ Short package description
   - [LittleTable](#littletable)
   - [Events](#events)
   - [filprofiler](#filprofiler)
-- [Game Development](#game-development)
-  - [Panda3D](#panda3d)
-- [Interesting Tidbits](#interesting-tidbits)
-<<<<<<< HEAD
-  - [Handcalcs](#handcalcs)
-  - [LittleTable](#littletable)
-  - [Events](#events)
-=======
-  - [filprofiler](#filprofiler)
-
->>>>>>> 6d00e7e74cc0472dbb58f38e858d6ef95aa0a903
-
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
