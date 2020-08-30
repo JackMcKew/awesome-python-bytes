@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -87,6 +89,9 @@ Short package description
   - [Unsync](#unsync)
   - [Pylance](#pylance)
   - [Pathlib](#pathlib)
+  - [Handcalcs](#handcalcs)
+  - [LittleTable](#littletable)
+  - [Events](#events)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -658,6 +663,36 @@ Introduced in version 3.4, `pathlib` is a module in the standard library for dea
 
 An intro to `pathlib` blog post mentioned in episode 191 can be found at: <https://everydaysuperpowers.dev/articles/stop-working-so-hard-paths-get-started-pathlib/>.
 
+## [Handcalcs](https://github.com/connorferster/handcalcs)
+
+*<https://pythonbytes.fm/episodes/show/192/calculations-by-hand-but-in-the-compter-with-handcalcs>*
+
+handcalcs is a library to render Python calculation code automatically in Latex, but in a manner that mimics how one might format their calculation if it were written with a pencil: write the symbolic formula, followed by numeric substitutions, and then the result.
+
+[![Handcalcs Demo](https://raw.githubusercontent.com/connorferster/handcalcs/master/docs/images/basic_demo.gif)](https://github.com/connorferster/handcalcs)
+
+## [LittleTable](https://github.com/ptmcg/littletable)
+
+*<https://pythonbytes.fm/episodes/show/194/events-and-callbacks-in-the-python-language>*
+
+The littletable module provides a low-overhead, schema-less, in-memory database access to a collection of user objects. littletable provides a DataObject class for ad hoc creation of semi-immutable objects that can be stored in a littletable Table. Tables can also contain user-defined objects, using those objects' `__dict__`, `__slots__`, or `_fields` mappings to access object attributes.
+
+## [Events](https://pypi.org/project/Events/)
+
+*<https://pythonbytes.fm/episodes/show/194/events-and-callbacks-in-the-python-language>*
+
+The C# language provides a handy way to declare, subscribe to and fire events. Technically, an event is a “slot” where callback functions (event handlers) can be attached to - a process referred to as subscribing to an event. Here is a handy package that encapsulates the core to event subscription and event firing and feels like a “natural” part of the language.
+
+``` python
+>>> def something_changed(reason):
+...     print "something changed because %s" % reason
+...
+
+>>> from events import Events
+>>> events = Events()
+>>> events.on_change += something_changed
+```
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
@@ -676,7 +711,10 @@ An intro to `pathlib` blog post mentioned in episode 191 can be found at: <https
 - [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
 - This list was mentioned in Episode #176 <https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers>
 - Fruit Salad scrum estimation scale, use fruit analogies rather than estimating time for tasks <https://fberriman.com/2020/01/22/fruit-salad-a-scrum-estimation-scale/>
-- How to find the difference between two times with timedeltas <https://pythonbytes.fm/episodes/show/190/you-will-now-be-notified-if-the-python-zipper-is-broken>.
+
+- How to find the difference between two times with timedeltas <https://pythonbytes.fm/episodes/show/190/you-will-now-be-notified-if-the-python-zipper-is-broken>
+  -
+  -
   - ``` python
     weeks = dt / timedelta(days=7)
     hours = dt / timedelta(hours=1)
