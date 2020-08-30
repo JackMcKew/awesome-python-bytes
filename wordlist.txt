@@ -22,6 +22,7 @@ codespell
 colab
 Colorizer
 colorizer
+compter
 cpu
 cpython
 crosstab
@@ -35,6 +36,7 @@ dataframe
 DataFrame
 dataframes
 DataFrames
+DataObject
 datapane
 Datapane
 datetime
@@ -65,7 +67,10 @@ GitHub
 guido
 guis
 GUIs
+Handcalcs
+handcalcs
 herokuapp
+hoc
 HoloViz
 Holoviz
 html
@@ -85,6 +90,8 @@ KristianHolsheimer
 LaTeX
 libs
 linter
+littletable
+LittleTable
 macOS
 Makefiles
 matplotlib
