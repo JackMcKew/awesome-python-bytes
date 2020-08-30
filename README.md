@@ -27,6 +27,7 @@ Short package description
 
 - [awesome-python-bytes](#awesome-python-bytes)
 - [Format](#format)
+- [- Events](#ullieventsliul)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -67,6 +68,7 @@ Short package description
   - [Clize](#clize)
   - [Typer](#typer)
   - [Rich](#rich)
+  - [invoke](#invoke)
 - [Graphical User Interfaces (GUIs)](#graphical-user-interfaces-guis)
   - [Gooey](#gooey)
   - [Eel GUI](#eel-gui)
@@ -92,6 +94,19 @@ Short package description
   - [Handcalcs](#handcalcs)
   - [LittleTable](#littletable)
   - [Events](#events)
+  - [filprofiler](#filprofiler)
+- [Game Development](#game-development)
+  - [Panda3D](#panda3d)
+- [Interesting Tidbits](#interesting-tidbits)
+<<<<<<< HEAD
+  - [Handcalcs](#handcalcs)
+  - [LittleTable](#littletable)
+  - [Events](#events)
+=======
+  - [filprofiler](#filprofiler)
+
+>>>>>>> 6d00e7e74cc0472dbb58f38e858d6ef95aa0a903
+
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -434,6 +449,12 @@ Rich is a Python library for rich text and beautiful formatting in the terminal.
 
 [![Rich Example](https://github.com/willmcgugan/rich/raw/master/imgs/features.png)](https://github.com/willmcgugan/rich)
 
+## [invoke](http://pyinvoke.org/)
+
+*[https://pythonbytes.fm/episodes/show/188/will-there-be-a-switch-in-python-the-language](https://pythonbytes.fm/episodes/show/188/will-there-be-a-switch-in-python-the-language)*
+
+`invoke` is a task execution tool & library. Replacement for Makefiles.
+
 # Graphical User Interfaces (GUIs)
 
 ## [Gooey](https://github.com/chriskiehl/Gooey)
@@ -693,6 +714,18 @@ The C# language provides a handy way to declare, subscribe to and fire events. T
 >>> events.on_change += something_changed
 ```
 
+## [filprofiler](https://pythonspeed.com/products/filmemoryprofiler/)
+
+*<https://pythonbytes.fm/episodes/show/185/this-code-is-snooping-on-you-a-good-thing>*
+
+Fil is a new open source Python memory profiler ([currently hosted on GitHub](https://github.com/pythonspeed/filprofiler)), designed for code that processes large amounts of data: the kind of code written by data scientists, data engineers, and scientists.
+
+Some features highlighted in episode 185:
+
+- If your Python data pipeline is using too much memory, it can be very difficult to figure where exactly all that memory is going.
+- What you need is some way to know exactly where peak memory usage is, and what code was responsible for memory at that point. And that’s exactly what the [Fil memory profiler](https://pythonspeed.com/products/filmemoryprofiler/) does.
+- Many tools track just Python memory. *Fil captures*all allocations going to the standard C memory allocation APIs.
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
@@ -713,6 +746,8 @@ The C# language provides a handy way to declare, subscribe to and fire events. T
 - Fruit Salad scrum estimation scale, use fruit analogies rather than estimating time for tasks <https://fberriman.com/2020/01/22/fruit-salad-a-scrum-estimation-scale/>
 
 - How to find the difference between two times with timedeltas <https://pythonbytes.fm/episodes/show/190/you-will-now-be-notified-if-the-python-zipper-is-broken>
+  -
+
   -
   -
   - ``` python
