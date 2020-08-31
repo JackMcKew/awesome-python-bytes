@@ -153,6 +153,7 @@ rainmeter
 remi
 roadmap
 rossum
+schemas
 scikit
 sidetable
 SideTable
@@ -163,6 +164,7 @@ str
 Streamlit
 Streamlit's
 styleguide
+sql
 subfigures
 TextAttack
 thinc
@@ -180,6 +182,7 @@ Utils
 uwsgi
 value_counts
 virtualenv
+visualisations
 vue
 Vue
 vuepy
