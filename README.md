@@ -54,6 +54,7 @@ Short package description
   - [HoloViz](#holoviz)
   - [Awesome Panel](#awesome-panel)
   - [Datapane](#datapane)
+  - [Pandas_Alive](#pandas_alive)
 - [Machine Learning](#machine-learning)
   - [PyTorch](#pytorch)
   - [Yellow Brick](#yellow-brick)
@@ -348,6 +349,20 @@ The purpose of the Awesome Panel Project is to share knowledge on how Awesome Pa
 Datapane is an open source framework which makes it easy to turn scripts and notebooks into interactive reports.
 
 Examples gallery at: <https://www.datapane.com/gallery/>
+
+## [Pandas_Alive](https://github.com/JackMcKew/pandas_alive)
+
+*<https://pythonbytes.fm/episodes/show/196/version-your-sql-schemas-with-git-automatically-migrate-them>*
+
+`Pandas_Alive` is intended to provide a plotting backend for animated matplotlib charts for Pandas DataFrames, similar to the already existing Visualization feature of Pandas.
+
+With `Pandas_Alive`, creating stunning, animated visualisations is as easy as calling:
+
+``` python
+df.plot_animated()
+```
+
+[![Pandas Alive Example](https://raw.githubusercontent.com/JackMcKew/pandas_alive/main/examples/example-barh-chart.gif)](https://github.com/JackMcKew/pandas_alive)
 
 # Machine Learning
 
@@ -731,14 +746,9 @@ Some features highlighted in episode 185:
 - [https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed](https://pythonbytes.fm/episodes/show/160/your-json-shall-be-streamed)
 - This list was mentioned in Episode #176 <https://pythonbytes.fm/episodes/show/176/how-python-implements-super-long-integers>
 - Fruit Salad scrum estimation scale, use fruit analogies rather than estimating time for tasks <https://fberriman.com/2020/01/22/fruit-salad-a-scrum-estimation-scale/>
-
 - How to find the difference between two times with timedeltas <https://pythonbytes.fm/episodes/show/190/you-will-now-be-notified-if-the-python-zipper-is-broken>
-  -
-
-  -
-  -
-  -
   - ``` python
     weeks = dt / timedelta(days=7)
     hours = dt / timedelta(hours=1)
     ```
+- Flyweight design pattern for memory management <https://pythonbytes.fm/episodes/show/196/version-your-sql-schemas-with-git-automatically-migrate-them>
