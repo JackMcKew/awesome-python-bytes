@@ -750,3 +750,4 @@ Some features highlighted in episode 185:
     hours = dt / timedelta(hours=1)
     ```
 - Flyweight design pattern for memory management <https://pythonbytes.fm/episodes/show/196/version-your-sql-schemas-with-git-automatically-migrate-them>
+- Optimal Peanut Butter and Banana Sandwiches <https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/> <https://pythonbytes.fm/episodes/show/197/structured-concurrency-in-python>
