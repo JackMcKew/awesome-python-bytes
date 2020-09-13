@@ -52,6 +52,7 @@ dumbed
 DVC
 dvc
 et
+ethanrosenthal
 everydaysuperpowers
 fastpages
 fberriman
