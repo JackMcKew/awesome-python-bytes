@@ -93,6 +93,7 @@ Short package description
   - [LittleTable](#littletable)
   - [Events](#events)
   - [filprofiler](#filprofiler)
+  - [PyInstaller Extractor](#pyinstaller-extractor)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
