@@ -726,6 +726,12 @@ Some features highlighted in episode 185:
 - What you need is some way to know exactly where peak memory usage is, and what code was responsible for memory at that point. And that’s exactly what the [Fil memory profiler](https://pythonspeed.com/products/filmemoryprofiler/) does.
 - Many tools track just Python memory. *Fil captures*all allocations going to the standard C memory allocation APIs.
 
+## [PyInstaller Extractor](https://github.com/extremecoders-re/pyinstxtractor)
+
+*<https://pythonbytes.fm/episodes/show/198/there-s-a-beaver-in-your-database-and-anna-lena-drops-by>*
+
+PyInstaller Extractor is a Python script to extract the contents of a PyInstaller generated Windows executable file. The contents of the pyz file (usually pyc files) present inside the executable are also extracted.
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
