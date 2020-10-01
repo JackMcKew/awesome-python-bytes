@@ -344,13 +344,13 @@ The purpose of the Awesome Panel Project is to share knowledge on how Awesome Pa
 
 [![Awesome Panel Example](https://raw.githubusercontent.com/MarcSkovMadsen/awesome-panel/master/assets/images/awesome-panel-full-branded.gif)](https://github.com/MarcSkovMadsen/awesome-panel)
 
-## [Datapane](https://www.datapane.com/)
+## [Datapane](https://datapane.com/)
 
 *<https://pythonbytes.fm/episodes/show/189/what-does-str.strip-do-are-you-sure>*
 
 Datapane is an open source framework which makes it easy to turn scripts and notebooks into interactive reports.
 
-Examples gallery at: <https://www.datapane.com/gallery/>
+Examples gallery at: <https://datapane.com/gallery/>
 
 ## [Pandas_Alive](https://github.com/JackMcKew/pandas_alive)
 
