@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -94,6 +96,7 @@ Short package description
   - [Events](#events)
   - [filprofiler](#filprofiler)
   - [PyInstaller Extractor](#pyinstaller-extractor)
+  - [blackcellmagic](#blackcellmagic)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -732,6 +735,14 @@ Some features highlighted in episode 185:
 *<https://pythonbytes.fm/episodes/show/198/there-s-a-beaver-in-your-database-and-anna-lena-drops-by>*
 
 PyInstaller Extractor is a Python script to extract the contents of a PyInstaller generated Windows executable file. The contents of the pyz file (usually pyc files) present inside the executable are also extracted.
+
+## [blackcellmagic](https://github.com/csurfer/blackcellmagic)
+
+*<https://pythonbytes.fm/episodes/show/200/no-dog-piling-please-it-s-episode-200>*
+
+IPython magic command to format python code in cell using black.
+
+[![blackcellmagic example](https://camo.githubusercontent.com/eff8981d6505bfd2ceb985919afa1152da2972c5/68747470733a2f2f692e696d6775722e636f6d2f3957384e4c55752e676966)](https://github.com/csurfer/blackcellmagic)
 
 # Game Development
 
