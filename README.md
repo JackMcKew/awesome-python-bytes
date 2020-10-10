@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -95,6 +97,7 @@ Short package description
   - [filprofiler](#filprofiler)
   - [PyInstaller Extractor](#pyinstaller-extractor)
   - [blackcellmagic](#blackcellmagic)
+  - [ugit](#ugit)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -741,6 +744,12 @@ PyInstaller Extractor is a Python script to extract the contents of a PyInstalle
 IPython magic command to format python code in cell using black.
 
 [![blackcellmagic example](https://camo.githubusercontent.com/eff8981d6505bfd2ceb985919afa1152da2972c5/68747470733a2f2f692e696d6775722e636f6d2f3957384e4c55752e676966)](https://github.com/csurfer/blackcellmagic)
+
+## [ugit](https://www.leshenko.net/p/ugit/#)
+
+ugit: DIY Git in Python
+
+Welcome aboard! We're going to implement Git in Python to learn more about how Git works on the inside.
 
 # Game Development
 
