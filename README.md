@@ -96,6 +96,7 @@ Short package description
   - [PyInstaller Extractor](#pyinstaller-extractor)
   - [blackcellmagic](#blackcellmagic)
   - [ugit](#ugit)
+  - [jupyterblack](#jupyterblack)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
