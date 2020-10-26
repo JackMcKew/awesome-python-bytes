@@ -747,9 +747,19 @@ IPython magic command to format python code in cell using black.
 
 ## [ugit](https://www.leshenko.net/p/ugit/#)
 
+*<https://pythonbytes.fm/episodes/show/201/understand-git-by-rebuilding-it-in-python>*
+
 ugit: DIY Git in Python
 
 Welcome aboard! We're going to implement Git in Python to learn more about how Git works on the inside.
+
+## [jupyterblack](https://github.com/drillan/jupyter-black)
+
+*<https://pythonbytes.fm/episodes/show/202/jupyter-is-back-in-black>*
+
+This extension reformats/prettifies code in a notebook's code cell by black.
+
+[![jupyterblack example](https://raw.githubusercontent.com/drillan/jupyter-black/master/demo.gif)](https://github.com/drillan/jupyter-black)
 
 # Game Development
 
