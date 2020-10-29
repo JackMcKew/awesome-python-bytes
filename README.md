@@ -286,6 +286,14 @@ DVC is built to make machine learning models shareable and reproducible. It is d
 
 [![DVC](https://dvc.org/img/graphic.png)](https://dvc.org/)
 
+## [Moving Pandas](https://anitagraser.github.io/movingpandas/)
+
+*<https://pythonbytes.fm/episodes/show/204/take-the-psf-survey-and-will-carlton-drop-by>*
+
+MovingPandas is a Python library for handling movement data based on Pandas and GeoPandas. It provides trajectory data structures and functions for analysis and visualization.
+
+[![MovingPandas Example](https://anitagraser.github.io/movingpandas/pics/movingpandas_hvplot2.gif)](https://anitagraser.github.io/movingpandas/)
+
 # Data Visualization
 
 ## [Pylustrator](https://pylustrator.readthedocs.io/en/latest/)
@@ -759,6 +767,14 @@ Welcome aboard! We're going to implement Git in Python to learn more about how G
 This extension reformats/prettifies code in a notebook's code cell by black.
 
 [![jupyterblack example](https://raw.githubusercontent.com/drillan/jupyter-black/master/demo.gif)](https://github.com/drillan/jupyter-black)
+
+## [nbQA](https://github.com/nbQA-dev/nbQA)
+
+*<https://pythonbytes.fm/episodes/show/204/take-the-psf-survey-and-will-carlton-drop-by>*
+
+Run any standard Python code quality tool on a Jupyter Notebook.
+
+[![nbQA Example](https://raw.githubusercontent.com/nbQA-dev/nbQA-demo/master/demo.gif)](https://github.com/nbQA-dev/nbQA)
 
 # Game Development
 
