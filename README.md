@@ -47,6 +47,7 @@ Short package description
   - [Tabulate](#tabulate)
   - [DVC](#dvc)
   - [Moving Pandas](#moving-pandas)
+  - [visidata](#visidata)
 - [Data Visualization](#data-visualization)
   - [Pylustrator](#pylustrator)
   - [Chartify](#chartify)
@@ -299,6 +300,14 @@ DVC is built to make machine learning models shareable and reproducible. It is d
 MovingPandas is a Python library for handling movement data based on Pandas and GeoPandas. It provides trajectory data structures and functions for analysis and visualization.
 
 [![MovingPandas Example](https://anitagraser.github.io/movingpandas/pics/movingpandas_hvplot2.gif)](https://anitagraser.github.io/movingpandas/)
+
+## [visidata](https://www.visidata.org/)
+
+*<https://pythonbytes.fm/episodes/show/211/will-a-black-hole-devour-this-episode>*
+
+VisiData is an interactive multitool for tabular data. It combines the clarity of a spreadsheet, the efficiency of the terminal, and the power of Python, into a lightweight utility which can handle millions of rows with ease.
+
+[![Visidata lightning demo](https://img.youtube.com/vi/N1CBDTgGtOU/0.jpg)](https://www.youtube.com/watch?v=N1CBDTgGtOU "VisiData Lightning Demo at PyCascades 2018")
 
 # Data Visualization
 
