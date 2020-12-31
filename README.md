@@ -373,7 +373,7 @@ The purpose of the Awesome Panel Project is to share knowledge on how Awesome Pa
 
 Datapane is an open source framework which makes it easy to turn scripts and notebooks into interactive reports.
 
-Examples gallery at: <https://datapane.com/gallery/>
+Examples gallery at: <https://datapane.com/explore/>
 
 ## [Pandas_Alive](https://github.com/JackMcKew/pandas_alive)
 
