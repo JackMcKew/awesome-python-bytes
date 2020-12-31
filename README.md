@@ -102,6 +102,7 @@ Short package description
   - [jupyterblack](#jupyterblack)
   - [nbQA](#nbqa)
   - [pipchill](#pipchill)
+  - [airspeed velocity](#airspeed-velocity)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -788,6 +789,16 @@ Run any standard Python code quality tool on a Jupyter Notebook.
 PIP Chill - Make requirements with only the packages you need. Like pip freeze but lists only the packages that are not dependencies of installed packages.
 
 [![pipchill example](https://raw.githubusercontent.com/wiki/rbanffy/pip-chill/demo.gif)](https://github.com/rbanffy/pip-chill)
+
+## [airspeed velocity](https://github.com/airspeed-velocity/asv)
+
+*<https://pythonbytes.fm/episodes/show/211/will-a-black-hole-devour-this-episode>*
+
+airspeed velocity (asv) is a tool for benchmarking Python packages over their lifetime.
+
+It is primarily designed to benchmark a single project over its lifetime using a given suite of benchmarks. The results are displayed in an interactive web frontend that requires only a basic static webserver to host.
+
+[Example airspeed velocity site](https://pv.github.io/numpy-bench/)
 
 # Game Development
 
