@@ -25,6 +25,8 @@ Short package description
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [awesome-python-bytes](#awesome-python-bytes)
+- [Format](#format)
 - [Web Development](#web-development)
   - [Wagtail](#wagtail)
   - [Wooey](#wooey)
@@ -99,6 +101,7 @@ Short package description
   - [ugit](#ugit)
   - [jupyterblack](#jupyterblack)
   - [nbQA](#nbqa)
+  - [pipchill](#pipchill)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -777,6 +780,14 @@ This extension reformats/prettifies code in a notebook's code cell by black.
 Run any standard Python code quality tool on a Jupyter Notebook.
 
 [![nbQA Example](https://raw.githubusercontent.com/nbQA-dev/nbQA-demo/master/demo.gif)](https://github.com/nbQA-dev/nbQA)
+
+## [pipchill](https://github.com/rbanffy/pip-chill)
+
+*<https://pythonbytes.fm/episodes/show/208/dependencies-out-of-control-just-pip-chill.>*
+
+PIP Chill - Make requirements with only the packages you need. Like pip freeze but lists only the packages that are not dependencies of installed packages.
+
+[![pipchill example](https://raw.githubusercontent.com/wiki/rbanffy/pip-chill/demo.gif)](https://github.com/rbanffy/pip-chill)
 
 # Game Development
 
