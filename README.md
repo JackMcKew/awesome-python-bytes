@@ -102,6 +102,7 @@ Short package description
   - [nbQA](#nbqa)
   - [pipchill](#pipchill)
   - [airspeed velocity](#airspeed-velocity)
+  - [PrettyErrors](#prettyerrors)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
