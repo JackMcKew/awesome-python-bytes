@@ -701,7 +701,7 @@ Pylance has the ability to supercharge your Python IntelliSense experience with 
 - Uses the pyright type checker (an alternative to MyPy (Dropbox), Pyre (Facebook) and Pytype (Google))
 - If you have pyright extension installed, remove it first!
 
-[![Pylance GIF](https://raw.githubusercontent.com/microsoft/pylance-release/master/screencap.gif)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+[![Pylance GIF](https://raw.githubusercontent.com/microsoft/pylance-release/main/images/all-features.gif)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
 ## [Pathlib](https://docs.python.org/3/library/pathlib.html)
 
