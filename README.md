@@ -816,6 +816,12 @@ Prettifies Python exception output to make it legible.
 
 [![PrettyErrors Example](https://raw.githubusercontent.com/onelivesleft/PrettyErrors/master/example.png)](https://github.com/onelivesleft/PrettyErrors)
 
+## [scalene](https://github.com/plasma-umass/scalene)
+
+*<https://pythonbytes.fm/episodes/show/215/a-visual-introduction-to-numpy>*
+
+Scalene is a high-performance CPU, GPU *and* memory profiler for Python that does a number of things that other Python profilers do not and cannot do. It runs orders of magnitude faster than other profilers while delivering far more detailed information.
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
