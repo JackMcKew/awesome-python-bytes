@@ -807,6 +807,14 @@ It is primarily designed to benchmark a single project over its lifetime using a
 
 [Example airspeed velocity site](https://pv.github.io/numpy-bench/)
 
+## [PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
+
+*<https://pythonbytes.fm/episodes/show/215/a-visual-introduction-to-numpy>*
+
+Prettifies Python exception output to make it legible.
+
+[![PrettyErrors Example](https://raw.githubusercontent.com/onelivesleft/PrettyErrors/master/example.png)](https://github.com/onelivesleft/PrettyErrors)
+
 # Game Development
 
 ## [Panda3D](https://www.panda3d.org/)
