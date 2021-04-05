@@ -102,6 +102,8 @@ Short package description
   - [nbQA](#nbqa)
   - [pipchill](#pipchill)
   - [airspeed velocity](#airspeed-velocity)
+  - [PrettyErrors](#prettyerrors)
+  - [scalene](#scalene)
 - [Game Development](#game-development)
   - [Panda3D](#panda3d)
 - [Interesting Tidbits](#interesting-tidbits)
@@ -699,7 +701,7 @@ Pylance has the ability to supercharge your Python IntelliSense experience with 
 - Uses the pyright type checker (an alternative to MyPy (Dropbox), Pyre (Facebook) and Pytype (Google))
 - If you have pyright extension installed, remove it first!
 
-[![Pylance GIF](https://raw.githubusercontent.com/microsoft/pylance-release/master/screencap.gif)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+[![Pylance GIF](https://raw.githubusercontent.com/microsoft/pylance-release/main/images/all-features.gif)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
 ## [Pathlib](https://docs.python.org/3/library/pathlib.html)
 
@@ -806,6 +808,20 @@ airspeed velocity (asv) is a tool for benchmarking Python packages over their li
 It is primarily designed to benchmark a single project over its lifetime using a given suite of benchmarks. The results are displayed in an interactive web frontend that requires only a basic static webserver to host.
 
 [Example airspeed velocity site](https://pv.github.io/numpy-bench/)
+
+## [PrettyErrors](https://github.com/onelivesleft/PrettyErrors)
+
+*<https://pythonbytes.fm/episodes/show/215/a-visual-introduction-to-numpy>*
+
+Prettifies Python exception output to make it legible.
+
+[![PrettyErrors Example](https://raw.githubusercontent.com/onelivesleft/PrettyErrors/master/example.png)](https://github.com/onelivesleft/PrettyErrors)
+
+## [scalene](https://github.com/plasma-umass/scalene)
+
+*<https://pythonbytes.fm/episodes/show/215/a-visual-introduction-to-numpy>*
+
+Scalene is a high-performance CPU, GPU *and* memory profiler for Python that does a number of things that other Python profilers do not and cannot do. It runs orders of magnitude faster than other profilers while delivering far more detailed information.
 
 # Game Development
 
