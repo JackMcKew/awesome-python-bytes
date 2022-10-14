@@ -68,6 +68,7 @@ Short package description
   - [Clize](#clize)
   - [Typer](#typer)
   - [Rich](#rich)
+  - [Rich CLI](#rich-cli)
   - [invoke](#invoke)
 - [Graphical User Interfaces (GUIs)](#graphical-user-interfaces-guis)
   - [Gooey](#gooey)
@@ -475,6 +476,17 @@ Features:
 Rich is a Python library for rich text and beautiful formatting in the terminal.
 
 [![Rich Example](https://github.com/willmcgugan/rich/raw/master/imgs/features.png)](https://github.com/willmcgugan/rich)
+
+## [Rich CLI](https://github.com/textualize/rich-cli)
+
+*[https://pythonbytes.fm/episodes/show/269/get-rich-and-replace-your-cat](https://pythonbytes.fm/episodes/show/269/get-rich-and-replace-your-cat)*
+
+Rich-CLI is a command line toolbox for fancy output in the terminal, built with Rich.
+
+Use the rich command to highlight a variety of file types in the terminal, with specialized rendering for Markdown and JSON files. Additionally you can markup and format text from the command line.
+
+[![Rich CLI Example](https://raw.githubusercontent.com/Textualize/rich-cli/main/imgs/rich-cli-splash.jpg)](https://github.com/textualize/rich-cli)
+
 
 ## [invoke](http://pyinvoke.org/)
 
